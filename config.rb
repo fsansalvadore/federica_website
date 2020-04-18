@@ -27,6 +27,11 @@ page '/*.txt', layout: false
 #   },
 # )
 
+configure :development do
+  activate :livereload
+  config[:host] = "http://localhost:4567"
+end
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
@@ -40,7 +45,14 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :gzip
+  activate :minify_css
+  activate :minify_javascript
+  activate :asset_hash
+  config[:host] = "https://www.dyme-music.com"
+end
+
+activate :s3_sync do |s3|
+  s3.prefer_gzip = true
+end
