@@ -1,0 +1,61 @@
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
+<link rel="canonical" href="https://www.federicaburziopsicologa.it/">
+<title><%= current_page.data.title || "Federica Burzio | Psicologa e Psicoterapeuta in formazione" %></title>
+<meta name="description" content="Federica Burzio. Psicologa laureata all'Università degli studi di Torino, e Psicoterapeuta in formazione. Richiedi un appuntamento.">
+<meta name="keywords" content="Psicologo, psicoterapeuta, torino, federica burzio, federica, burzio, terapia, cura, consulenza, sostegno, depressione, aiuto">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Dancing+Script&display=swap" rel="stylesheet">
+
+<!-- FAVICON -->
+<link rel="icon" type="image/png" sizes="32x32" href="/images/ICONE/favicon-32x32.png">
+
+<!-- SOCIAL META TAGS -->
+
+<meta name="author" content="Federica Burzio">
+<meta http-equiv="Cache-control" content="public">
+<meta http-equiv="Cache-Control" content="max-age=1209600">
+<meta itemprop="name" content="<%= current_page.data.title || 'Federica Burzio | Psicologa e Psicoterapeuta in formazione' %>">
+<meta itemprop="description" content="Psicologa laureata all'Università degli studi di Torino, e Psicoterapeuta in formazione. Richiedi un appuntamento.">
+<meta itemprop="image" content="/images/FedericaBurzio_1200x630.jpg">
+<meta property="og:site_name" content="<%= current_page.data.title || 'Federica Burzio | Psicologa e Psicoterapeuta in formazione' %>">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.federicaburziopsicologa.it/">
+<meta property="og:title" content="<%= current_page.data.title || 'Federica Burzio | Psicologa e Psicoterapeuta in formazione' %>">
+<meta property="og:image" content="/images/FedericaBurzio_1200x630.jpg">
+<meta property="og:description" content="Psicologa laureata all'Università degli studi di Torino, e Psicoterapeuta in formazione.">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="https://www.federicaburziopsicologa.it/">
+<meta name="twitter:title" content="<%= current_page.data.title || 'Federica Burzio | Psicologa e Psicoterapeuta in formazione' %>">
+<meta name="twitter:description" content="Psicologa laureata all'Università degli studi di Torino, e Psicoterapeuta in formazione.">
+<meta name="twitter:creator" content="@Francesco_Sansa">
+<meta name="twitter:image" content="/images/FedericaBurzio_1200x630.jpg">
+<meta name="robots" content="NOODP">
+<meta name="msnbot" content="NOODP">
+<meta name="googlebot" content="NOODP">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<%= stylesheet_link_tag "site" %>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#04403b",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#07776e",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "message": "Questo sito fa uso di cookie per migliorare l’esperienza di navigazione degli utenti e per raccogliere informazioni sull’utilizzo del sito stesso. Proseguendo nella navigazione si accetta l’uso dei cookie.",
+    "dismiss": "Confermo",
+    "link": "Scopri di più",
+    "href": "<%= config[:host] %>/privacy.html"
+  }
+})});
+</script>

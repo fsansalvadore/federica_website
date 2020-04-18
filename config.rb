@@ -50,7 +50,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
-  config[:host] = "https://www.dyme-music.com"
+  config[:host] = "https://www.federicaburziopsicologa.it"
 end
 
 activate :s3_sync do |s3|
