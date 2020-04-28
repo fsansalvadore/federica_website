@@ -8,4 +8,5 @@ gem 'middleman-sprockets', '~> 4.0.0.rc'
 gem 'sprockets-es6'
 gem 'middleman-s3_sync'
 gem 'middleman-livereload'
-gem "contentful_middleman"
+gem 'contentful_middleman'
+gem 'middleman-dotenv'
