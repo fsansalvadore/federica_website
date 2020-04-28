@@ -6,10 +6,12 @@ activate :autoprefixer do |prefix|
 end
 
 activate :contentful do |f|
-  f.space         = { site: 'fd82fq972rzy' }
-  f.access_token  = 'ik785ggYFfwzYzq818EBXKkZjXm5YZHMjHoKTliUSPQ'
+  f.space         = { ENV['CONTENTFUL_SPACE_ID'] }
+  f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
   f.content_types = { homePages: 'homePage', generals: 'informazioniGenerali' }
 end
+
+activate :dotenv
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
