@@ -8,7 +8,7 @@ end
 activate :contentful do |f|
   f.space         = { site: 'fd82fq972rzy' }
   f.access_token  = 'ik785ggYFfwzYzq818EBXKkZjXm5YZHMjHoKTliUSPQ'
-  f.content_types = { homePage: 'homePage', informazioniGenerali: 'informazioniGenerali' }
+  f.content_types = { homePages: 'homePage', generals: 'informazioniGenerali' }
 end
 
 # Layouts
