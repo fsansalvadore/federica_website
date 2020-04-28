@@ -5,12 +5,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-# activate :contentful do |f|
-#   f.space         = fd82fq972rzy
-#   f.access_token  = ik785ggYFfwzYzq818EBXKkZjXm5YZHMjHoKTliUSPQ
-#   # f.cda_query     = QUERY
-#   f.content_types = homePage
-# end
+activate :contentful do |f|
+  f.space         = { site: 'fd82fq972rzy' }
+  f.access_token  = 'ik785ggYFfwzYzq818EBXKkZjXm5YZHMjHoKTliUSPQ'
+  f.content_types = { homePage: 'homePage', informazioniGenerali: 'informazioniGenerali' }
+end
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
