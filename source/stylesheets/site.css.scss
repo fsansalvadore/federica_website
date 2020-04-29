@@ -602,7 +602,15 @@ a {
   transform: translateY(-50%);
 }
 
-p:empty { display: none; }
+p:empty,
+h1:empty,
+h2:empty,
+h3:empty,
+h4:empty,
+h5:empty {
+  display: none;
+}
+
 
 .richtext_p p {
   margin: 0 !important;
