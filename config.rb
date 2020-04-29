@@ -6,12 +6,10 @@ activate :autoprefixer do |prefix|
 end
 
 activate :contentful do |f|
-  f.space         = { ENV['CONTENTFUL_SPACE_ID'] }
+  f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
   f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
-  f.content_types = { homePages: 'homePage', generals: 'informazioniGenerali' }
+  f.content_types = { homePages: 'homePage' }
 end
-
-activate :dotenv
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -36,6 +34,7 @@ page '/*.txt', layout: false
 # )
 
 configure :development do
+  activate :dotenv
   activate :livereload
   config[:host] = "http://localhost:4567"
 end

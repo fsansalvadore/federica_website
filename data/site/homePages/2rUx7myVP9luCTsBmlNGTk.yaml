@@ -1,0 +1,239 @@
+---
+:id: 2rUx7myVP9luCTsBmlNGTk
+:_meta:
+  :content_type_id: homePage
+  :updated_at: '2020-04-28T19:52:22+00:00'
+  :created_at: '2020-04-28T19:48:54+00:00'
+  :id: 2rUx7myVP9luCTsBmlNGTk
+:titolo_contenuto: Contenuti Home Page
+:meta_title: Federica Burzio | Psicologa e Psicoterapeuta in formazione
+:meta_description: Federica Burzio. Psicologa laureata all'Università degli studi
+  di Torino, e Psicoterapeuta in formazione. Richiedi un appuntamento.
+:h1_titolo_principale:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: "\"Ognuno è più che altro, semplicemente,\n"
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: un essere umano
+      nodeType: text
+    - data: {}
+      marks: []
+      value: "\""
+      nodeType: text
+    nodeType: heading-1
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:sottotitolo: Harry S. Sullivan
+:tasto_principale: Richiedi un appuntamento
+:sezione1_foto:
+  :title: Federica Burzio | Psicologa e Psicoterapeuta in formazione
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/3hoMcJudyJkdM8O29C6JHG/81929e384b7cec7c1b007e33eef4cb7e/Federica_Burzio-Psicologa_Psicoterapeuta-a2c514cc.jpeg"
+  :_meta:
+    :updated_at: '2020-04-28T19:48:50+00:00'
+    :created_at: '2020-04-28T19:48:50+00:00'
+    :id: 3hoMcJudyJkdM8O29C6JHG
+:sezione1_etichetta: CHI SONO
+:sezione1_titolo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Dottoressa 
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: Federica Burzio
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:sezione1_testo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Sono 
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: Psicologa
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " laureata all'Università degli studi di Torino, e "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: Psicoterapeuta
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " in formazione. Scopri di più su di me e sul mio percorso:"
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:sezione1_tasto1_testo: Formazione
+:sezione1_tasto2_testo: Pensiero
+:sezione2_etichetta: AMBITI DI INTERVENTO
+:sezione2_titolo: Di cosa mi occupo?
+:sezione2_testo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Esistono diverse branche della psicologia che si occupano del 
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: benessere degli individui
+      nodeType: text
+    - data: {}
+      marks: []
+      value: ", quelle su cui mi concentro attualmente sono:"
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:sezione2_link1: il sostegno psicologico
+:sezione2_link2: la consulenza
+:sezione2_link3: la psicodiagnosi
+:sezione3_titolo: A chi è rivolto?
+:sezione3_icona1_titolo: Adolescenti e Giovani Adulti
+:sezione3_icona2_titolo: Adulti
+:sezione3_icona3_titolo: Anziani
+:sezione3_icona4_titolo: Coppie e Genitori
+:sezione4_etichetta: RICHIEDI INFORMAZIONI
+:sezione4_titolo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Compila il form
+      nodeType: text
+    nodeType: heading-4
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:sezione4_testo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Per maggiori informazioni o per prenotare un primo colloquio conoscitivo
+        compila il form inserendo il tuo 
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: nome
+      nodeType: text
+    - data: {}
+      marks: []
+      value: ", il tuo "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: numero di telefono
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " e l'"
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: indirizzo email
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " per essere ricontattati."
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:contatti_etichetta: CONTATTI
+:contatti_testo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: 'Orario di reperibilità
+
+'
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: Lun - Ven
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " dalle "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: '9:00'
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " alle "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: '18:00'
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:contatti_email: info@federicaburziopsicologa.it
+:contatti_telefono: "+39 338 482 7741"
+:contatti_indirizzo1: Via Don Giovanni Minzoni 2, 10121 Torino
+:contatti_indirizzo2: Viale Fasano, 17 Chieri (TO)

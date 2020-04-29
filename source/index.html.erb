@@ -1,3 +1,5 @@
+<% data.site.homePages.each do |_, page| %>
+
 <!-- HOME -->
 <main>
 	<section id="sezione-a" class="grid">
@@ -11,7 +13,7 @@
 			<div><img src="/images/icone/leaf5.png"></div>
 			<div><img src="/images/icone/leaf6.png"></div>
 			<div><img src="/images/icone/leaf7.png"></div>
-            <div><img src="/images/icone/leaf8.png"></div>
+      <div><img src="/images/icone/leaf8.png"></div>
 			<div><img src="/images/icone/leaf2.png"></div>
 			<div><img src="/images/icone/leaf9.png"></div>
 			<div><img src="/images/icone/leaf10.png"></div>
@@ -21,10 +23,9 @@
 		</div>
 
 		<!-- FINE EFFETTO FOGLIE -->
-
 		<div class="content-wrap" id="header-content">
-			<h1>"Ognuno è più che altro, semplicemente,<br><strong>un essere umano</strong>"</h1>
-      <p>Harry S. Sullivan</p><a href="#info" data-offset="-160">
+      <h1><%= rich_text(page.h1_titolo_principale) %></h1>
+      <p><%= page.sottotitolo %></p><a href="#info" data-offset="-160">
 			<button type="submit" class="btn-white">Richiedi un appuntamento</button></a>
 		</div>
 	</section>
@@ -47,7 +48,6 @@
 				</div>
 			</div>
 		</section>
-
 		<!-- SERVIZI -->
 		<section id="servizi">
       <div class="grid">
@@ -172,3 +172,4 @@
 	<!-- FINE MAIN -->
 	</div>
 </main>
+<% end %>
