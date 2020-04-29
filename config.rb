@@ -57,11 +57,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
-  activate :contentful do |f|
-    f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
-    f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
-    f.content_types = { homePages: 'homePage' }
-  end
   config[:host] = "https://www.federicaburziopsicologa.it"
 end
 
