@@ -602,9 +602,15 @@ a {
   transform: translateY(-50%);
 }
 
+p:empty { display: none; }
+
+.richtext_p p {
+  margin: 0 !important;
+}
+
 #sezione-a p {
   font-size: 0.8em;
-  margin: 10px 0;
+  margin: 1.5em 0;
 }
 
 #sezione-a p:nth-child(3) {
