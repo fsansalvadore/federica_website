@@ -8,7 +8,7 @@ end
 activate :contentful do |f|
   f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
   f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
-  f.content_types = { homePages: 'homePage' }
+  f.content_types = { homePages: 'homePage', generals: 'informazioniGenerali' }
 end
 
 # Layouts
