@@ -8,7 +8,11 @@ end
 activate :contentful do |f|
   f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
   f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
-  f.content_types = { homePages: 'homePage', generals: 'informazioniGenerali' }
+  f.content_types = {
+    homePages: 'homePage',
+    generals: 'informazioniGenerali',
+    pages: 'paginaInterna'
+     }
 end
 
 # Layouts
@@ -24,6 +28,12 @@ page '/*.txt', layout: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
+
+# activate :directory_indexes
+
+data.site.pages.each do |_, page|
+  proxy "/#{page.directory.downcase.gsub(' ', '-')}/#{page.slug.downcase}/index.html", "/page-template.html", :locals => { :page => page }, :ignore => true
+end
 
 # proxy(
 #   '/this-page-has-no-template.html',

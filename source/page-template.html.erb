@@ -1,0 +1,40 @@
+---
+title: page.meta_title
+---
+
+<main>
+  <section>
+    <div class="pagina-iniziale">
+      <a href="<%= config[:host] %>/"><i class="fa fa-arrow-circle-left"></i><span>Torna alla pagina iniziale</span></a>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <div class="box">
+    <!-- CHI SONO -->
+    <section class="chi-sono2">
+      <div class="content-wrap">
+        <h2>DOTT.SSA FEDERICA BURZIO > AMBITI DI INTERVENTO ></h2>
+        <h4><%= page.titolo_principale %></h4>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="formazione">
+      <div>
+        <%= rich_text(page.testo) %>
+      </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section id="contatti-formazione">
+      <div class="content-wrap">
+        <a href="<%= config[:host] %>/#info" data-offset="-60">
+          <button type="submit" class="btn-white">Richiedi un appuntamento</button>
+        </a>
+      </div>
+    </section>
+
+  <!-- FINE MAIN -->
+  </div>
+</main>

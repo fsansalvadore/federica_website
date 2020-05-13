@@ -2,7 +2,7 @@
 :id: 2rUx7myVP9luCTsBmlNGTk
 :_meta:
   :content_type_id: homePage
-  :updated_at: '2020-04-28T19:52:22+00:00'
+  :updated_at: '2020-05-13T17:56:48+00:00'
   :created_at: '2020-04-28T19:48:54+00:00'
   :id: 2rUx7myVP9luCTsBmlNGTk
 :titolo_contenuto: Contenuti Home Page
@@ -133,11 +133,51 @@
 :sezione2_link1: il sostegno psicologico
 :sezione2_link2: la consulenza
 :sezione2_link3: la psicodiagnosi
-:sezione3_titolo: A chi è rivolto?
-:sezione3_icona1_titolo: Adolescenti e Giovani Adulti
-:sezione3_icona2_titolo: Adulti
-:sezione3_icona3_titolo: Anziani
-:sezione3_icona4_titolo: Coppie e Genitori
+:sezione3_icona1_immagine:
+  :title: adolesc
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/5yseGq2D9N3HTv7ucjjqhF/5778dd704f6115a98fa0d03c98a5dcf5/adolesc.svg"
+  :_meta:
+    :updated_at: '2020-05-12T17:36:01+00:00'
+    :created_at: '2020-05-12T17:36:01+00:00'
+    :id: 5yseGq2D9N3HTv7ucjjqhF
+:sezione3_icona1_titolo: Adolescenza
+:sezione3_icona2_immagine:
+  :title: adulto
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/19D6fG1kYLGlwyd3qTrZuK/d481dd37e7ba9de27c5f77a8727f8968/adulto.svg"
+  :_meta:
+    :updated_at: '2020-05-13T17:50:30+00:00'
+    :created_at: '2020-05-13T17:50:30+00:00'
+    :id: 19D6fG1kYLGlwyd3qTrZuK
+:sezione3_icona2_titolo: Età adulta
+:sezione3_icona3_immagine:
+  :title: mater
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/Lr8KUsGZ8U0OBKGQyPw6G/f9e37c0096f57fe638099219bec9e5f3/mater.svg"
+  :_meta:
+    :updated_at: '2020-05-13T17:56:35+00:00'
+    :created_at: '2020-05-13T17:51:03+00:00'
+    :id: Lr8KUsGZ8U0OBKGQyPw6G
+:sezione3_icona3_titolo: Maternità
+:sezione3_icona4_immagine:
+  :title: genit
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/57SYF66T34NoeuawYoSaC4/b20db4b717248856b2d96f5d61437245/genit.svg"
+  :_meta:
+    :updated_at: '2020-05-13T17:52:07+00:00'
+    :created_at: '2020-05-13T17:52:07+00:00'
+    :id: 57SYF66T34NoeuawYoSaC4
+:sezione3_icona4_titolo: Genitorialità
+:sezione3_icona5_immagine:
+  :title: senit
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/6szVZG12W0glf2VYITDH4b/21e2a765cabe487babfd6da34b69f93d/senit.svg"
+  :_meta:
+    :updated_at: '2020-05-13T17:55:42+00:00'
+    :created_at: '2020-05-13T17:55:42+00:00'
+    :id: 6szVZG12W0glf2VYITDH4b
+:sezione3_icona5_titolo: Senilità
 :sezione4_etichetta: RICHIEDI INFORMAZIONI
 :sezione4_titolo:
   data: {}

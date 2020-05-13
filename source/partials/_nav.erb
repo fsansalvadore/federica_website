@@ -1,19 +1,21 @@
+<% data.site.generals.each do |_, general| %>
+
 <div id="header-sopra">
   <div id="interno-sinistra-h">
     <p>
-      <span>Orario di reperibilità </span><strong>Lun - Ven</strong> dalle <strong>9:00</strong> alle <strong>18:00</strong>
+      <%= rich_text(general.informazioni_orario) %>
     </p>
   </div>
   <div id="interno-destra-h">
     <ul>
       <li>
-        <img src="/images/icone/maps-and-flags-green.svg" alt="icon-position"><p>Via Don Giovanni Minzoni  2, 10121 Torino - Viale Fasano, 17 Chieri (TO)</p>
+        <img src="/images/icone/maps-and-flags-green.svg" alt="icon-position"><p><%= general.informazioni_indirizzi %></p>
       </li>
       <li>
-        <img src="/images/icone/envelope-green.svg" alt="icon-envelope"><p><a href="mailto:info@federicaburziopsicologa.it" target="_blank">info@federicaburziopsicologa.it</a></p>
+        <img src="/images/icone/envelope-green.svg" alt="icon-envelope"><p><a href="mailto:<%= general.informazioni_email %>" target="_blank"><%= general.informazioni_email %></a></p>
       </li>
       <li>
-        <img src="/images/icone/call-answer-green.svg" alt="icon-phone"><p><a href="tel:+393384827741">+39 338 482 7741</a></p>
+        <img src="/images/icone/call-answer-green.svg" alt="icon-phone"><p><a href="tel:<%= general.informazioni_telefono.gsub(" ", "") %>"><%= general.informazioni_telefono %></a></p>
       </li>
     </ul>
   </div>
@@ -31,9 +33,13 @@
       <a href="#servizi" data-offset="-160">Ambiti di intervento <i class="fa fa-caret-down"></i></a>
       <div class="dropdown">
         <div class="dropdown-content">
-            <a href="/ambiti-di-intervento/sostegno-psicologico.html">Sostegno Psicologico</a>
-            <a href="/ambiti-di-intervento/consulenza.html">Consulenza</a>
-            <a href="/ambiti-di-intervento/psicodiagnosi.html">Psicodiagnosi</a>
+          <% data.site.pages.each do |_, link| %>
+            <% if link.directory == "Ambiti di intervento" %>
+              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase %>"><%= link.titolo_principale.capitalize %></a>
+            <% end %>
+          <% end %>
+            <!-- <a href="/ambiti-di-intervento/consulenza.html">Consulenza</a>
+            <a href="/ambiti-di-intervento/psicodiagnosi.html">Psicodiagnosi</a> -->
         </div>
       </div>
     </div>
@@ -75,3 +81,4 @@
       <a href="#contatti" data-offset="-90"><li>Contatti</li></a>
     </div>
   </ul>
+<% end %>

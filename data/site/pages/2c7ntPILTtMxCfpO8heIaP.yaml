@@ -1,0 +1,144 @@
+---
+:id: 2c7ntPILTtMxCfpO8heIaP
+:_meta:
+  :content_type_id: paginaInterna
+  :updated_at: '2020-04-30T11:21:33+00:00'
+  :created_at: '2020-04-30T10:29:47+00:00'
+  :id: 2c7ntPILTtMxCfpO8heIaP
+:nome_pagina: Chi sono - Formazione
+:directory: Chi sono
+:slug: Formazione
+:meta_title: Formazione | Federica Burzio | Psicologa e Psicoterapeuta in formazione
+:titolo_principale: FORMAZIONE
+:testo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Dopo la Laurea Magistrale in Psicologia Clinica e di Comunità e l'
+      nodeType: text
+    - data:
+        uri: https://www.ordinepsicologi.piemonte.it/albo-degli-psicologi/federica-burzio
+      content:
+      - data: {}
+        marks: []
+        value: iscrizione all'Albo degli Psicologi del Piemonte
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: ", ho iniziato nel 2018 la specializzazione in Psicoterapia a indirizzo
+        psicoanalitico relazionale presso la "
+      nodeType: text
+    - data:
+        uri: http://www.sppscuoladipsicoterapia.it/
+      content:
+      - data: {}
+        marks:
+        - type: underline
+        value: SSP
+        nodeType: text
+      - data: {}
+        marks: []
+        value: " - "
+        nodeType: text
+      - data: {}
+        marks:
+        - type: bold
+        value: Scuola di Psicoterapia Psicoanalitica
+        nodeType: text
+      - data: {}
+        marks: []
+        value: " - di Torino"
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: "."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Nel 2019 inizio l'attività privata all'interno della sede di 
+      nodeType: text
+    - data:
+        uri: https://www.psy-coworking.com/
+      content:
+      - data: {}
+        marks:
+        - type: underline
+        value: Psicologia Torino e psy-coworking
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: ", uno spazio di lavoro psicologico dove professionisti Psicologi e Psicoterapeuti
+        con orientamenti differenti possono lavorare insieme condividendo conoscenze
+        e competenze."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Attualmente svolgo il tirocinio di specializzazione in 
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: Psicoterapia Psicoanalitica
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " presso l'"
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: ASL Città di Torino
+      nodeType: text
+    - data: {}
+      marks: []
+      value: ", nel Centro della Salute Mentale. Inoltre, assieme a un Docente SPP,
+        collaboro con la "
+      nodeType: text
+    - data:
+        uri: https://coopsandonato.it/
+      content:
+      - data: {}
+        marks:
+        - type: underline
+        value: cooperativa San Donato di Torino
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " partecipando a supervisioni rivolte a operatori nel trattamento di
+        minori in comunità residenziali specializzate in relazioni difficili."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Titoli, esperienze professionali e formative potete trovarle 
+      nodeType: text
+    - data:
+        uri: https://www.federicaburziopsicologa.it/images/CV_Burzio.pdf
+      content:
+      - data: {}
+        marks:
+        - type: underline
+        value: qui
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: "."
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document

@@ -1,0 +1,40 @@
+---
+:id: 7KUHr4bDNxPTAKHfeG2s6x
+:_meta:
+  :content_type_id: paginaInterna
+  :updated_at: '2020-04-30T11:22:19+00:00'
+  :created_at: '2020-04-30T10:33:20+00:00'
+  :id: 7KUHr4bDNxPTAKHfeG2s6x
+:nome_pagina: Ambiti di intervento - Consulenza
+:directory: Ambiti di intervento
+:slug: Consulenza
+:meta_title: Consulenza Psicologica | Federica Burzio | Psicologa e Psicoterapeuta
+  in formazione
+:titolo_principale: CONSULENZA PSICOLOGICA (O COUNSELING)
+:testo:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: La consulenza psicologica è un intervento in cui è possibile accogliere
+        la problematica specifica portata dal cliente, identificare alcune connessioni
+        fra il problema e il più ampio contesto di vita della persona e individuare,
+        insieme al cliente, le risorse per poter raggiungere gli obiettivi desiderati.
+        In parole povere il counseling è un intervento finalizzato alla risoluzione
+        di una particolare problematica attraverso l’ascolto, la definizione del problema,
+        la valutazione della situazione, l’attivazione di risorse, di empowerment
+        e di capacità di problem solving.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Solitamente il counseling si in un numero definito di incontri, a seguito
+        dei quali il cliente può decidere quali strategie adottare, compreso se avvalersi
+        o meno di un successivo percorso di sostegno psicologico o psicoterapia.
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document

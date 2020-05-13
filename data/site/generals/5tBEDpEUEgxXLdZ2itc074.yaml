@@ -1,0 +1,56 @@
+---
+:id: 5tBEDpEUEgxXLdZ2itc074
+:_meta:
+  :content_type_id: informazioniGenerali
+  :updated_at: '2020-04-30T09:55:40+00:00'
+  :created_at: '2020-04-30T09:50:38+00:00'
+  :id: 5tBEDpEUEgxXLdZ2itc074
+:informazioni_generali: Info Generali
+:logo_principale:
+  :title: Logo Federica Burzio - Psicologa
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/TEs9PWqZKPpSX6DLxNvm7/885775989b188bdccd60846fae5a58cd/logo_FedericaBurzio_foglia-d9f94afc.svg"
+  :_meta:
+    :updated_at: '2020-04-30T09:54:13+00:00'
+    :created_at: '2020-04-30T09:54:13+00:00'
+    :id: TEs9PWqZKPpSX6DLxNvm7
+:informazioni_orario:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Orario di reperibilità 
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: Lun - Ven
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " dalle "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: '9:00'
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " alle "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: '18:00'
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document
+:informazioni_indirizzi: Via Don Giovanni Minzoni 2, 10121 Torino - Viale Fasano,
+  17 Chieri (TO)
+:informazioni_email: info@federicaburziopsicologa.it
+:informazioni_telefono: "+39 338 482 7741"
+:footer_info_generiche: Federica Burzio © 2020 Tutti i diritti riservati
+:footer_partita_iva: P.IVA 12244320011

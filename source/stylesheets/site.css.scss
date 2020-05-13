@@ -713,7 +713,7 @@ hr {
 .chi-sono2 {
   min-height: 100px;
   text-align: left;
-  padding: 40px;
+  padding: 30px;
   -webkit-box-shadow: 0 1px 15px rgba(0,0,0,0.2);
           box-shadow: 0 1px 15px rgba(0,0,0,0.2);
   -webkit-transform: rotateX(1deg);
@@ -871,7 +871,7 @@ h3 {
       display: grid;
       grid-gap: 5%;
       row-gap: 50px;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 
       .target_item_container {
         display: flex;
@@ -883,6 +883,9 @@ h3 {
           height: 100px;
           background-color: #d3d3d3;
           border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         h5.target_title {
@@ -896,7 +899,7 @@ h3 {
 
 @media only screen and (min-width: 900px) {
   .target_container .container_centered .icons_container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -1349,7 +1352,7 @@ input:checked + .slider:before {
   .chi-sono2 {
     min-height: 100px;
     text-align: left;
-    padding: 0 100px;
+    padding: 0 25%;
   }
 
   .formazione {
