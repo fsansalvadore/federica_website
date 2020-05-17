@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow:
+
+Disallow: /messaggio-inviato.html
+Disallow: /404.html
+
+Sitemap: https://www.yourmusicportrait.com/sitemap.xml
