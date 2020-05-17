@@ -1064,6 +1064,14 @@ input:checked + .slider:before {
   margin-top: 70px;
 }
 
+.formazione h5 {
+  color: #1d6b63;
+}
+
+.lista {
+  margin-top: 30px;
+}
+
 .list_item-container {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
@@ -1107,6 +1115,15 @@ input:checked + .slider:before {
   margin: 0 0 0 30px;
   font-size: 20px;
   flex: 1;
+}
+
+span.arrow {
+  transform-origin: 40% 60%;
+  transition: transform 0.3s ease;
+}
+
+span.arrow.rotate {
+  transform: rotate(90deg);
 }
 
 .list_img {
@@ -1163,7 +1180,7 @@ input:checked + .slider:before {
 
 #contatti img {
   width: 20px;
-    margin-top: 3px;
+  margin-top: 3px;
   position: absolute;
 }
 
@@ -1180,9 +1197,9 @@ input:checked + .slider:before {
   -webkit-box-shadow: 1px 1px 20px rgba(0,0,0, 0.4);
   box-shadow: 1px 1px 20px rgba(0,0,0, 0.4);
   height: 300px;
-    border: 0;
+  border: 0;
   width: 100%;
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
     /* FOOTER */

@@ -43,3 +43,11 @@ $('.map-btn-single').on('click', function(){
         $('#map').html('<iframe src="https://www.google.com/maps/embed/v1/place?q=Viale%20Fasano%20%2C%2017%2C%20Chieri%2C%20Metropolitan%20City%20of%20Turin%2C%20Italy&key=AIzaSyAvMMUbUBXr4WEtSIYgrUZq3HMWEmzEKTw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>');
     }
 });
+
+var tggls = $("button.list_item-touch");
+
+tggls.each(function(i) {
+  $(this).click(function() {
+    $(this).find("span.arrow").toggleClass("rotate");
+  });
+});
