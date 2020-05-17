@@ -9,24 +9,45 @@ title: page.meta_title
     </div>
   </section>
 
-  <!-- MAIN -->
   <div class="box">
-    <!-- CHI SONO -->
     <section class="chi-sono2">
       <div class="content-wrap">
-        <h2>DOTT.SSA FEDERICA BURZIO > AMBITI DI INTERVENTO ></h2>
+        <p>DOTT.SSA FEDERICA BURZIO > AMBITI DI INTERVENTO ></p>
         <h4><%= page.titolo_principale %></h4>
       </div>
     </section>
 
-    <!-- FORM -->
     <section class="formazione">
       <div>
         <%= rich_text(page.testo) %>
       </div>
+      <% unless page.lista.nil? %>
+      <div class="accordion lista" id="accordionExample">
+        <% page.lista.each do |item| %>
+          <div class="card list_item-container">
+            <div class="card-header" id="heading_<%= item[:id] %>">
+              <button class="btn btn-block text-left list_item-touch" type="button" data-toggle="collapse" data-target="#collapse_<%= item[:id] %>" aria-expanded="false" aria-controls="collapse_<%= item[:id] %>">
+                <img class="list_img" src="<%= item[:immagine].url %>" alt="">
+                <h3><%= item[:titolo] %></h3>
+                <span class="arrow">
+                  <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 6L1.33513e-07 11.1962L9.58579e-09 0.803848L9 6Z" fill="#212121"/>
+                  </svg>
+                </span>
+              </button>
+            </div>
+
+            <div id="collapse_<%= item[:id] %>" class="collapse" aria-labelledby="heading_<%= item[:id] %>" data-parent="#accordionExample">
+              <div class="card-body item_testo">
+                <%= item[:testo] %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+      <% end %>
     </section>
 
-    <!-- CONTATTI -->
     <section id="contatti-formazione">
       <div class="content-wrap">
         <a href="<%= config[:host] %>/#info" data-offset="-60">
@@ -35,6 +56,5 @@ title: page.meta_title
       </div>
     </section>
 
-  <!-- FINE MAIN -->
   </div>
 </main>

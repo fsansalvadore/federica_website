@@ -2,7 +2,7 @@
 :id: 2c7ntPILTtMxCfpO8heIaP
 :_meta:
   :content_type_id: paginaInterna
-  :updated_at: '2020-04-30T11:21:33+00:00'
+  :updated_at: '2020-05-17T07:23:21+00:00'
   :created_at: '2020-04-30T10:29:47+00:00'
   :id: 2c7ntPILTtMxCfpO8heIaP
 :nome_pagina: Chi sono - Formazione
@@ -124,21 +124,174 @@
   - data: {}
     content:
     - data: {}
-      marks: []
-      value: Titoli, esperienze professionali e formative potete trovarle 
+      marks:
+      - type: bold
+      value: ''
       nodeType: text
-    - data:
-        uri: https://www.federicaburziopsicologa.it/images/CV_Burzio.pdf
-      content:
-      - data: {}
-        marks:
-        - type: underline
-        value: qui
-        nodeType: text
-      nodeType: hyperlink
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks:
+      - type: bold
+      value: Scopri chi sono attraverso le mie collaborazioni
+      nodeType: text
+    nodeType: heading-5
+  - data: {}
+    content:
     - data: {}
       marks: []
-      value: "."
+      value: ''
       nodeType: text
     nodeType: paragraph
   nodeType: document
+:lista:
+- :id: 2ziAP6QzxKhgXhTLKnuEgC
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T08:22:02+00:00'
+    :created_at: '2020-05-17T06:56:32+00:00'
+    :id: 2ziAP6QzxKhgXhTLKnuEgC
+  :immagine:
+    :title: Unito-logo
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/5M4ZRHbALVqm1uZUBK3NTL/fa30736fdcc41f27403971b55a4796d5/Unito-logo.png"
+    :_meta:
+      :updated_at: '2020-05-17T08:21:53+00:00'
+      :created_at: '2020-05-17T08:21:53+00:00'
+      :id: 5M4ZRHbALVqm1uZUBK3NTL
+  :titolo: Unito
+  :testo: Conseguimento della Laurea triennale in Psicologia a indirizzo Scienze e
+    Tecniche psicologiche (2013) e della Laurea Magistrale in Psicologia Clinica e
+    di Comunità con Lode e Menzione (2016).
+- :id: 7o3IQ3pVUUwCQvEQhkAzYR
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T06:58:31+00:00'
+    :created_at: '2020-05-16T16:06:17+00:00'
+    :id: 7o3IQ3pVUUwCQvEQhkAzYR
+  :immagine:
+    :title: SPP
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/V657svnOAjvnwLUw5qUAp/e153710a0aab5194c50103466e87b9e5/SPP.png"
+    :_meta:
+      :updated_at: '2020-05-16T16:05:35+00:00'
+      :created_at: '2020-05-16T16:05:35+00:00'
+      :id: V657svnOAjvnwLUw5qUAp
+  :titolo: Scuola di Psicoterapia Psicoanalitica
+  :testo: Iscrizione alla scuola di specializzazione in Psicoterapia a indirizzo psicoanalitico
+    presso la SSP di Torino (2018 - in corso)
+- :id: 7IbiFviYKen5wr77kRo0da
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T08:55:45+00:00'
+    :created_at: '2020-05-16T16:07:03+00:00'
+    :id: 7IbiFviYKen5wr77kRo0da
+  :immagine:
+    :title: ASL CittaDiTorino
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/4RTsKYgWe2NTCa50eZLz89/c3d637dbee34d8127629cb99a5be888a/ASL_CittaDiTorino.png"
+    :_meta:
+      :updated_at: '2020-05-16T16:06:45+00:00'
+      :created_at: '2020-05-16T16:06:45+00:00'
+      :id: 4RTsKYgWe2NTCa50eZLz89
+  :titolo: ASL Città di Torino
+  :testo: |-
+    - Psicologa Specializzanda in Psicoterapia presso il CSM dell’Asl Città di Torino (Via Pettiti 24)  attraverso lo svolgimento di psicoterapie individuali a breve e lungo termine, valutazioni cliniche, primi colloqui (2018 - in corso)
+
+
+    - Tirocinio magistrale di 1000 ore svolto presso il servizio psichiatrico del Centro di Salute Mentale dell’ AslTO1 (con sede in via Petitti 24, Centro di Salute Mentale D8; via Bidone 26, Centro Diurno Psichiatrico D8; via San Secondo 29 bis, Centro di Salute Mentale D).  Colloqui clinici, gruppi terapeutici, arteterapia, valutazioni testistiche, gestione statistica delle afferenze al servizio  (2015 - 2016)
+
+
+    - Tirocinio di 250 ore presso servizio di tossicodipendenza e centro diurno dell’ospedale di infettivologia Amedeo di Savoia della vecchia AslTo2 (2012 -2013)
+- :id: 39JL7uONcvE1GNv4A3nSkM
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T06:59:52+00:00'
+    :created_at: '2020-05-17T06:57:42+00:00'
+    :id: 39JL7uONcvE1GNv4A3nSkM
+  :immagine:
+    :title: San Donato-logo
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/4mqfFOyBxK6J5EwEUbRMS0/6cb59a3564b67fc891fff7399e24be06/San_Donato-logo.png"
+    :_meta:
+      :updated_at: '2020-05-17T06:59:48+00:00'
+      :created_at: '2020-05-17T06:59:48+00:00'
+      :id: 4mqfFOyBxK6J5EwEUbRMS0
+  :titolo: Cooperativa San Donato
+  :testo: Assistente alle supervisioni cliniche agli operatori della comunità Alloggio
+    San Donato specializzata in adolescenza e relazioni difficili (via Passoni 18,
+    Torino) (2018-in corso)
+- :id: 1vLIdTRWzJqzv7uvcNOGvV
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T06:59:30+00:00'
+    :created_at: '2020-05-17T06:59:30+00:00'
+    :id: 1vLIdTRWzJqzv7uvcNOGvV
+  :immagine:
+    :title: PFF
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/49TrGhNltjfdXk77VPBckV/eb5c889ecfab1c9313d9949551d17656/PFF.png"
+    :_meta:
+      :updated_at: '2020-05-17T06:59:19+00:00'
+      :created_at: '2020-05-17T06:59:19+00:00'
+      :id: 49TrGhNltjfdXk77VPBckV
+  :titolo: Psicologia Film Festival
+  :testo: Art Director e fotografa della rassegna cinematografica a tematiche psicologiche
+    sociologiche e antropologiche  Psicologia Film Festival (2019-in corso)
+- :id: Bvz52IkpN92p3k4fWQIOa
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T07:03:24+00:00'
+    :created_at: '2020-05-17T07:02:30+00:00'
+    :id: Bvz52IkpN92p3k4fWQIOa
+  :immagine:
+    :title: Psicologia Torino
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/2oEllxDe7s5a6t6iRQNcSc/c4cd293627584c9f7047a28932601da4/Psicologia_Torino.png"
+    :_meta:
+      :updated_at: '2020-05-17T07:03:19+00:00'
+      :created_at: '2020-05-17T07:03:19+00:00'
+      :id: 2oEllxDe7s5a6t6iRQNcSc
+  :titolo: Psicologia Torino
+  :testo: Collaborazione con il Centro Clinico Psicologia Torino e Psy-Coworking attraverso
+    progetti e colloqui psicologici (2019- in corso) e allo Sportello di supporto
+    psicologico da Coronavirus gratuito attivato durante l’emergenza sanitaria del
+    Covid-19 nel febbraio 2020
+- :id: 7Hcyy8mVjMCIJj3ZDBDATI
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T07:04:16+00:00'
+    :created_at: '2020-05-17T07:04:16+00:00'
+    :id: 7Hcyy8mVjMCIJj3ZDBDATI
+  :immagine:
+    :title: Area G-logo
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/2ta4IFh10V4X1lTEGeyo1/c0090c4f1e0a0283684b01941cd130be/Area_G-logo.png"
+    :_meta:
+      :updated_at: '2020-05-17T07:04:11+00:00'
+      :created_at: '2020-05-17T07:04:11+00:00'
+      :id: 2ta4IFh10V4X1lTEGeyo1
+  :titolo: Area G Onlus
+  :testo: Collaborazione con l’associazione Area G Onlus con lo scopo di promuovere
+    forme di solidarietà e sostegno nei confronti di adolescenti e giovani adulti
+    tramite colloqui psicologici gratuiti a orientamento psicoanalitico
+- :id: ZAa0gnXZKcEmcUw25KKKR
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2020-05-17T07:06:16+00:00'
+    :created_at: '2020-05-17T07:06:16+00:00'
+    :id: ZAa0gnXZKcEmcUw25KKKR
+  :immagine:
+    :title: '3'
+    :description:
+    :url: "//images.ctfassets.net/fd82fq972rzy/7bPDIwdGSzr1JjAKMYACtg/e98a24ed5025fdcf3b3d4e6f5c41d2ba/3.png"
+    :_meta:
+      :updated_at: '2020-05-17T07:06:11+00:00'
+      :created_at: '2020-05-17T07:06:11+00:00'
+      :id: 7bPDIwdGSzr1JjAKMYACtg
+  :titolo: Rorschach Équipe
+  :testo: Collaborazione con il Gruppo di studio e ricerca sui metodi proiettivi Rorschach
+    Equipe della Dottoressa Doriana Dipaola  nell’analisi e nella siglatura del Tematic
+    Apperception Test (TAT) di Murray e nel Test di Rorschach con metodologia francese
+    (2019 - in corso)

@@ -44,11 +44,16 @@
       </div>
     </div>
     <div class="div-link">
-      <a href="#chi-sono" data-offset="-160">Chi sono <i class="fa fa-caret-down"></i></a>
+      <a href="<%= config[:host] %>/#chi-sono" data-offset="-160">Chi sono <i class="fa fa-caret-down"></i></a>
       <div class="dropdown">
         <div class="dropdown-content">
-          <a href="/chi-sono/formazione.html">Formazione</a>
-          <a href="/chi-sono/pensiero.html">Pensiero</a>
+          <% data.site.pages.each do |_, link| %>
+            <% if link.directory == "Chi sono" %>
+              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase %>"><%= link.titolo_principale.capitalize %></a>
+            <% end %>
+          <% end %>
+          <!-- <a href="/chi-sono/formazione.html">Formazione</a> -->
+          <!-- <a href="/chi-sono/pensiero.html">Pensiero</a> -->
         </div>
       </div>
     </div>
@@ -66,7 +71,7 @@
   </div>
   <ul id="menu" class="closed-menu">
     <div class="menu-list">
-      <a href="#chi-sono" data-offset="-90"><li>Chi sono</li></a>
+      <a href="<%= config[:host] %>/#chi-sono" data-offset="-90"><li>Chi sono</li></a>
       <div class="sotto-menu">
         <a href="/chi-sono/formazione.html" data-offset="-90"><li>Formazione</li></a>
         <a href="/chi-sono/pensiero.html" data-offset="-90"><li>Pensiero</li></a>
@@ -77,8 +82,8 @@
         <a href="/ambiti-di-intervento/consulenza.html" data-offset="-90"><li>Consulenza</li></a>
         <a href="/ambiti-di-intervento/psicodiagnosi.html" data-offset="-90"><li>Psicodiagnosi</li></a>
       </div>
-      <a href="#info" data-offset="-90"><li>Richiedi informazioni</li></a>
-      <a href="#contatti" data-offset="-90"><li>Contatti</li></a>
+      <a href="<%= config[:host] %>/#info" data-offset="-90"><li>Richiedi informazioni</li></a>
+      <a href="<%= config[:host] %>/#contatti" data-offset="-90"><li>Contatti</li></a>
     </div>
   </ul>
 <% end %>

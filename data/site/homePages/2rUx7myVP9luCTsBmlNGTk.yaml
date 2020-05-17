@@ -2,7 +2,7 @@
 :id: 2rUx7myVP9luCTsBmlNGTk
 :_meta:
   :content_type_id: homePage
-  :updated_at: '2020-05-13T17:56:48+00:00'
+  :updated_at: '2020-05-16T16:08:34+00:00'
   :created_at: '2020-04-28T19:48:54+00:00'
   :id: 2rUx7myVP9luCTsBmlNGTk
 :titolo_contenuto: Contenuti Home Page
@@ -246,7 +246,7 @@
       marks: []
       value: 'Orario di reperibilità
 
-'
+        '
       nodeType: text
     - data: {}
       marks:

@@ -31,11 +31,11 @@ h1 {
   font-size: 1.3em;
 }
 
-h2 {
+h2, .chi-sono2 .content-wrap p {
   text-transform: uppercase;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, .chi-sono2 .content-wrap p {
   margin: 0;
   letter-spacing: 0.1px;
   line-height: 1.5;
@@ -647,7 +647,8 @@ h5:empty {
   padding: 1%;
 }
 
-#chi-sono h2 {
+#chi-sono h2,
+.chi-sono2 .content-wrap p {
   font-size: 16px;
   color: #5c656d;
   margin-bottom: 1em;
@@ -720,7 +721,8 @@ hr {
           transform: rotateX(1deg);
 }
 
-.chi-sono2 h2 {
+.chi-sono2 h2,
+.chi-sono2 .content-wrap p {
   font-size: 10px;
   color: #5c656d;
 }
@@ -1055,16 +1057,67 @@ input:checked + .slider:before {
 
 #info button {
   width: 100%;
-    border: none;
+  border: none;
 }
 
 .form-end {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
-    /* CONTATTI */
-    /* CONTATTI */
-    /* CONTATTI */
+.list_item-container {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0;
+  border-radius: 0;
+}
+
+.list_item-container:last-of-type {
+}
+
+.list_item-container button:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.list_item-container.card {
+  background: transparent;
+}
+
+.list_item-container .card-header {
+  padding: 0;
+  background: transparent;
+  border: none;
+  min-height: 80px;
+}
+
+.item_testo {
+  padding: 20px;
+  opacity: 0.8;
+  line-height: 160%;
+}
+
+.list_item-touch {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+
+.list_item-touch h3 {
+  margin: 0 0 0 30px;
+  font-size: 20px;
+  flex: 1;
+}
+
+.list_img {
+  max-width: 80px;
+  max-height: 80px;
+  display: inline;
+}
+
+/* CONTATTI */
+/* CONTATTI */
+/* CONTATTI */
 
 #contatti {
   min-height: 500px;
@@ -1084,7 +1137,7 @@ input:checked + .slider:before {
   padding: 0;
   margin: 0;
   color: #f5f5f5;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #contatti li {
@@ -1118,9 +1171,9 @@ input:checked + .slider:before {
   margin-left: 2.5em;
 }
 
-    /* GOOGLE MAPS */
-    /* GOOGLE MAPS */
-    /* GOOGLE MAPS */
+/* GOOGLE MAPS */
+/* GOOGLE MAPS */
+/* GOOGLE MAPS */
 
 #map {
   margin: 0 0 5em 0;
@@ -1193,9 +1246,9 @@ input:checked + .slider:before {
     box-sizing: content-box;
 }
 
-      /*MEDIA QUERIES */
-      /*MEDIA QUERIES */
-      /*MEDIA QUERIES */
+/*MEDIA QUERIES */
+/*MEDIA QUERIES */
+/*MEDIA QUERIES */
 
 
 @media screen and (min-width: 955px) and (max-width: 1220px) {
