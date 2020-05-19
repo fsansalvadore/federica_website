@@ -121,7 +121,7 @@
 					<p><%= rich_text(page.sezione4_testo) %></p>
 				</div>
 				<div class="div-sinistra">
-					<form method="post" action="send_form_email.php">
+					<form name="info" method="POST" data-netlify="true">
 					  <div class="nome">
 	            <input type="text" name="nome" placeholder="Nome *" required>
 	          </div>
