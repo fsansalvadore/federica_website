@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <%= partial 'partials/head' %>
+  </head>
+  <body>
+    <%= partial 'partials/nav_home' %>
+    <%= yield %>
+    <%= partial 'partials/footer' %>
+    <%= partial 'partials/js' %>
+    <%= javascript_include_tag "site" %>
+  </body>
+</html>

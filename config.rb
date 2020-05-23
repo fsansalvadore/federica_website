@@ -24,7 +24,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
+page 'index.html', layout: 'home'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/

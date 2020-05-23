@@ -24,13 +24,13 @@
   <a href="<%= config[:host] %>/" alt="Federica Burzio - Psicologa Psicoterapeuta Torino"><img class="logo" src="<%= general.logo_principale.url %>" alt="logo-Federica-Burzio"><div class="avatar-foto"></div></a>
   <div id="link-header">
     <div class="div-link">
-      <a href="<%= config[:host] %>/#contatti" data-offset="-160">Contatti</a>
+      <a href="#contatti" data-offset="-160">Contatti</a>
     </div>
     <div class="div-link">
-      <a href="<%= config[:host] %>/#info" data-offset="-160">Richiedi informazioni</a>
+      <a href="#info" data-offset="-160">Richiedi informazioni</a>
     </div>
     <div class="div-link">
-      <a href="<%= config[:host] %>/#servizi" data-offset="-160">Ambiti di intervento <i class="fa fa-caret-down"></i></a>
+      <a href="#servizi" data-offset="-160">Ambiti di intervento <i class="fa fa-caret-down"></i></a>
       <div class="dropdown">
         <div class="dropdown-content">
           <% data.site.pages.each do |_, link| %>
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="div-link">
-      <a href="<%= config[:host] %>/#chi-sono" data-offset="-160">Chi sono <i class="fa fa-caret-down"></i></a>
+      <a href="#chi-sono" data-offset="-160">Chi sono <i class="fa fa-caret-down"></i></a>
       <div class="dropdown">
         <div class="dropdown-content">
           <% data.site.pages.each do |_, link| %>
@@ -52,6 +52,8 @@
               <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase %>"><%= link.titolo_principale.capitalize %></a>
             <% end %>
           <% end %>
+          <!-- <a href="/chi-sono/formazione.html">Formazione</a> -->
+          <!-- <a href="/chi-sono/pensiero.html">Pensiero</a> -->
         </div>
       </div>
     </div>
@@ -69,7 +71,7 @@
   </div>
   <ul id="menu" class="closed-menu">
     <div class="menu-list">
-      <a href="<%= config[:host] %>/#chi-sono" data-offset="-90"><li>Chi sono</li></a>
+      <a href="#chi-sono" data-offset="-90"><li>Chi sono</li></a>
       <div class="sotto-menu">
         <% data.site.pages.each do |_, link| %>
           <% if link.directory == "Chi sono" %>
@@ -77,7 +79,7 @@
           <% end %>
         <% end %>
       </div>
-      <a href="<%= config[:host] %>/#servizi" data-offset="-90"><li>Ambiti di intervento</li></a>
+      <a href="#servizi" data-offset="-90"><li>Ambiti di intervento</li></a>
       <div class="sotto-menu">
         <% data.site.pages.each do |_, link| %>
           <% if link.directory == "Ambiti di intervento" %>
@@ -85,8 +87,8 @@
           <% end %>
         <% end %>
       </div>
-      <a href="<%= config[:host] %>/#info" data-offset="-90"><li>Richiedi informazioni</li></a>
-      <a href="<%= config[:host] %>/#contatti" data-offset="-90"><li>Contatti</li></a>
+      <a href="#info" data-offset="-90"><li>Richiedi informazioni</li></a>
+      <a href="#contatti" data-offset="-90"><li>Contatti</li></a>
     </div>
   </ul>
 <% end %>
