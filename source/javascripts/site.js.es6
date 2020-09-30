@@ -38,7 +38,7 @@ $('.map-btn-single').on('click', function(){
     $(this, '.map-btn-single').addClass("active");
     console.log(jQuery(this).attr("id"));
     if(jQuery(this).attr("id") == "torino") {
-        $('#map').html('<iframe src="https://www.google.com/maps/embed/v1/place?q=Via%20Don%20Giovanni%20Minzoni%2C%202%2010121%20Torino%20TO&key=AIzaSyAvMMUbUBXr4WEtSIYgrUZq3HMWEmzEKTw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>');
+        $('#map').html('<iframe src="https://www.google.com/maps/embed/v1/place?q=Via%20Filippo%20Juvarra%2C%201%2010122%20Torino%20TO&key=AIzaSyAvMMUbUBXr4WEtSIYgrUZq3HMWEmzEKTw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>');
     } else if (event.target.id == "chieri") {
         $('#map').html('<iframe src="https://www.google.com/maps/embed/v1/place?q=Viale%20Fasano%20%2C%2017%2C%20Chieri%2C%20Metropolitan%20City%20of%20Turin%2C%20Italy&key=AIzaSyAvMMUbUBXr4WEtSIYgrUZq3HMWEmzEKTw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>');
     }
