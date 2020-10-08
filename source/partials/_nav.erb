@@ -35,7 +35,7 @@
         <div class="dropdown-content">
           <% data.site.pages.each do |_, link| %>
             <% if link.directory == "Ambiti di intervento" %>
-              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase %>"><%= link.titolo_principale.capitalize %></a>
+              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>"><%= link.titolo_principale.capitalize %></a>
             <% end %>
           <% end %>
             <!-- <a href="/ambiti-di-intervento/consulenza.html">Consulenza</a>
@@ -49,7 +49,7 @@
         <div class="dropdown-content">
           <% data.site.pages.each do |_, link| %>
             <% if link.directory == "Chi sono" %>
-              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase %>"><%= link.titolo_principale.capitalize %></a>
+              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>"><%= link.titolo_principale.capitalize %></a>
             <% end %>
           <% end %>
         </div>
@@ -73,7 +73,7 @@
       <div class="sotto-menu">
         <% data.site.pages.each do |_, link| %>
           <% if link.directory == "Chi sono" %>
-            <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase %>" data-offset="-90"><li><%= link.titolo_principale.capitalize %></li></a>
+            <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>" data-offset="-90"><li><%= link.titolo_principale.capitalize %></li></a>
           <% end %>
         <% end %>
       </div>
@@ -81,7 +81,7 @@
       <div class="sotto-menu">
         <% data.site.pages.each do |_, link| %>
           <% if link.directory == "Ambiti di intervento" %>
-            <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase %>" data-offset="-90"><li><%= link.titolo_principale.capitalize %></li></a>
+            <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>" data-offset="-90"><li><%= link.titolo_principale.capitalize %></li></a>
           <% end %>
         <% end %>
       </div>
