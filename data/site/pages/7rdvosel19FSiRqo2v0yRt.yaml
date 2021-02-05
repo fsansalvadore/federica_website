@@ -2,14 +2,15 @@
 :id: 7rdvosel19FSiRqo2v0yRt
 :_meta:
   :content_type_id: paginaInterna
-  :updated_at: '2020-04-30T11:22:04+00:00'
+  :updated_at: '2020-10-08T13:02:15+00:00'
   :created_at: '2020-04-30T10:31:23+00:00'
   :id: 7rdvosel19FSiRqo2v0yRt
-:nome_pagina: Chi Sono - Pensiero
+:nome_pagina: 'Chi Sono - Cosa fa lo Psicologo '
 :directory: Chi sono
-:slug: Pensiero
-:meta_title: Pensiero | Federica Burzio | Psicologa e Psicoterapeuta in formazione
-:titolo_principale: PENSIERO
+:slug: cosa-fa-lo-psicologo
+:meta_title: Cosa fa lo Psicologo | Federica Burzio | Psicologa e Psicoterapeuta in
+  formazione
+:titolo_principale: 'Cosa fa lo psicologo '
 :testo:
   data: {}
   content:
@@ -17,8 +18,8 @@
     content:
     - data: {}
       marks: []
-      value: Amo il lavoro psicologico e psicoterapeutico perchè fonda le sue radici
-        sull'adozione di un atteggiamento autenticamente di 
+      value: Il lavoro psicologico e psicoterapeutico fonda le sue radici sull'adozione
+        di un atteggiamento autenticamente di 
       nodeType: text
     - data: {}
       marks:
@@ -35,34 +36,70 @@
     content:
     - data: {}
       marks: []
-      value: Credo che la 
+      value: 'All''interno dei miei '
       nodeType: text
     - data: {}
       marks:
       - type: bold
-      value: psicoanalisi
+      value: 'studi, '
       nodeType: text
     - data: {}
       marks: []
-      value: " non sia altro che una "
+      value: 'o attraverso colloqui in '
       nodeType: text
     - data: {}
       marks:
       - type: bold
-      value: possibilità già presente nella nostra mente
+      value: videochiamata
       nodeType: text
     - data: {}
       marks: []
-      value: ", in attesa di essere scoperta e compresa. Una potenzialità appartenente
-        a ognuno di noi che consiste nella capacità di ascolto e cura dell'Altro attraverso
-        una reale presenza e compartecipazione, mentale e affettiva."
+      value: ", propongo ai pazienti tre colloqui conoscitivi iniziali non vincolanti,
+        all'interno dei quali sarà possibile valutare assieme la natura della "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: 'domanda '
+      nodeType: text
+    - data: {}
+      marks: []
+      value: 'e del bisogno della persona, il tipo di '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: 'lavoro '
+      nodeType: text
+    - data: {}
+      marks: []
+      value: 'richiesto e le effettive possibilità di un '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: 'percorso '
+      nodeType: text
+    - data: {}
+      marks: []
+      value: 'successivo, che potrà essere a breve o lungo termine ma comunque sempre '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: focalizzato
+      nodeType: text
+    - data: {}
+      marks: []
+      value: ", senza perdere di vista l'obiettivo ma modificandolo nell'evoluzione
+        del percorso. "
       nodeType: text
     nodeType: paragraph
   - data: {}
     content:
     - data: {}
       marks: []
-      value: Il mio lavoro consiste quindi nel 
+      value: Il mio lavoro consiste nel 
       nodeType: text
     - data: {}
       marks:
@@ -85,6 +122,13 @@
       value: " si prende cura degli aspetti sofferenti dell'Altro non pretendendo
         di negarli o di eliminarli illusoriamente, ma contenendoli e pensandoli attraverso
         la co-creazione di uno strumento per pensare i pensieri."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
       nodeType: text
     nodeType: paragraph
   nodeType: document

@@ -2,7 +2,7 @@
 :id: 2c7ntPILTtMxCfpO8heIaP
 :_meta:
   :content_type_id: paginaInterna
-  :updated_at: '2020-05-17T07:23:21+00:00'
+  :updated_at: '2021-02-05T19:22:25+00:00'
   :created_at: '2020-04-30T10:29:47+00:00'
   :id: 2c7ntPILTtMxCfpO8heIaP
 :nome_pagina: Chi sono - Formazione
@@ -10,6 +10,14 @@
 :slug: Formazione
 :meta_title: Formazione | Federica Burzio | Psicologa e Psicoterapeuta in formazione
 :titolo_principale: FORMAZIONE
+:cover_image:
+  :title: 'Federica Burzio '
+  :description: 
+  :url: "//images.ctfassets.net/fd82fq972rzy/5KVPYWohc5556fA7MQGoRE/512f8d5078c4809e7bc81832ffe67054/FedericaBurzio-circle.png"
+  :_meta:
+    :updated_at: '2021-02-05T18:58:14+00:00'
+    :created_at: '2021-02-05T18:58:14+00:00'
+    :id: 5KVPYWohc5556fA7MQGoRE
 :testo:
   data: {}
   content:
@@ -63,62 +71,105 @@
     content:
     - data: {}
       marks: []
-      value: Nel 2019 inizio l'attività privata all'interno della sede di 
+      value: Ho svolto esperienze formative in vari settori, tra i quali l'
       nodeType: text
     - data:
-        uri: https://www.psy-coworking.com/
+        uri: http://www.aslcittaditorino.it/strutture/malattie-infettive-2/
       content:
       - data: {}
-        marks:
-        - type: underline
-        value: Psicologia Torino e psy-coworking
+        marks: []
+        value: Ospedale Amedeo di Savoia
         nodeType: text
       nodeType: hyperlink
     - data: {}
       marks: []
-      value: ", uno spazio di lavoro psicologico dove professionisti Psicologi e Psicoterapeuti
-        con orientamenti differenti possono lavorare insieme condividendo conoscenze
-        e competenze."
+      value: " nell'ambito delle dipendenze, "
+      nodeType: text
+    - data:
+        uri: http://www.aslcittaditorino.it/
+      content:
+      - data: {}
+        marks: []
+        value: 'l''Asl '
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: 'di Torino all''interno dei Centri di Salute Mentale rivolti ad adulti
+        e adolescenti e nelle comunità terapeutico riabilitative, nello specifico
+        rivolte ad adolescenti attraverso una collaborazione con la '
+      nodeType: text
+    - data:
+        uri: https://coopsandonato.it/
+      content:
+      - data: {}
+        marks: []
+        value: Cooperativa San Donato
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " di Torino, e nell'ambito delle dipendenze  presso il "
+      nodeType: text
+    - data:
+        uri: http://www.cufrad.it/
+      content:
+      - data: {}
+        marks: []
+        value: 'Cufrad '
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: 'di Sommariva del Bosco. In passato ho anche collaborato come professionista
+        con il '
+      nodeType: text
+    - data:
+        uri: https://www.psycoworking.it/
+      content:
+      - data: {}
+        marks: []
+        value: Centro Clinico Psicologia Torino
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " dove assieme ad altri colleghi abbiamo offerto servizi di supporto
+        psicologico legati all'emergenza sanitaria Covid-19."
       nodeType: text
     nodeType: paragraph
   - data: {}
     content:
     - data: {}
       marks: []
-      value: Attualmente svolgo il tirocinio di specializzazione in 
-      nodeType: text
-    - data: {}
-      marks:
-      - type: bold
-      value: Psicoterapia Psicoanalitica
-      nodeType: text
-    - data: {}
-      marks: []
-      value: " presso l'"
-      nodeType: text
-    - data: {}
-      marks:
-      - type: bold
-      value: ASL Città di Torino
-      nodeType: text
-    - data: {}
-      marks: []
-      value: ", nel Centro della Salute Mentale. Inoltre, assieme a un Docente SPP,
-        collaboro con la "
+      value: 'Attualmente ricevo pazienti mio studio privato in via '
       nodeType: text
     - data:
-        uri: https://coopsandonato.it/
+        uri: https://www.google.com/maps/place/Studio+Psicologico+Dr.ssa+Federica+Burzio/@45.0433537,7.6760771,12z/data=!4m8!1m2!2m1!1sfederica+burzio+via+juvarra+torino!3m4!1s0x47886d1e69586b49:0xb5abd87d3bce8d1c!8m2!3d45.0731469!4d7.6743392
       content:
       - data: {}
-        marks:
-        - type: underline
-        value: cooperativa San Donato di Torino
+        marks: []
+        value: Filippo Juvarra 1 a Torino
         nodeType: text
       nodeType: hyperlink
     - data: {}
       marks: []
-      value: " partecipando a supervisioni rivolte a operatori nel trattamento di
-        minori in comunità residenziali specializzate in relazioni difficili."
+      value: " e in "
+      nodeType: text
+    - data:
+        uri: https://www.google.com/maps/place/Studio+di+Psicologia+Dr.ssa+Federica+Burzio/@45.0136034,7.7478567,12z/data=!4m8!1m2!2m1!1sfederica+burzio+via+juvarra+torino!3m4!1s0x47880bd659d70965:0xe33f9b872f92a540!8m2!3d45.0136034!4d7.8178945
+      content:
+      - data: {}
+        marks: []
+        value: viale Fasano 17 a Chieri
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " per percorsi individuali, di coppia e sostegno genitoriale. Inoltre
+        lavoro come specializzanda psicoterapeuta presso il Centro di Salute Mentale
+        dell'Asl di via Petitti a Torino e come psicologa nel servizio ad alta protezione
+        all'interno del Cufrad.\n"
       nodeType: text
     nodeType: paragraph
   - data: {}
@@ -134,7 +185,7 @@
     - data: {}
       marks:
       - type: bold
-      value: Scopri chi sono attraverso le mie collaborazioni
+      value: 'Scopri chi sono attraverso le mie collaborazioni '
       nodeType: text
     nodeType: heading-5
   - data: {}
@@ -149,7 +200,7 @@
 - :id: 2ziAP6QzxKhgXhTLKnuEgC
   :_meta:
     :content_type_id: elementoLista
-    :updated_at: '2020-05-17T08:22:02+00:00'
+    :updated_at: '2020-05-19T15:08:14+00:00'
     :created_at: '2020-05-17T06:56:32+00:00'
     :id: 2ziAP6QzxKhgXhTLKnuEgC
   :immagine:
@@ -161,9 +212,9 @@
       :created_at: '2020-05-17T08:21:53+00:00'
       :id: 5M4ZRHbALVqm1uZUBK3NTL
   :titolo: Unito
-  :testo: Conseguimento della Laurea triennale in Psicologia a indirizzo Scienze e
-    Tecniche psicologiche (2013) e della Laurea Magistrale in Psicologia Clinica e
-    di Comunità con Lode e Menzione (2016).
+  :testo: __Conseguimento__ della Laurea triennale in Psicologia a indirizzo Scienze
+    e Tecniche psicologiche (2013) e della Laurea Magistrale in Psicologia Clinica
+    e di Comunità con Lode e Menzione (2016).
 - :id: 7o3IQ3pVUUwCQvEQhkAzYR
   :_meta:
     :content_type_id: elementoLista
@@ -225,7 +276,7 @@
 - :id: 1vLIdTRWzJqzv7uvcNOGvV
   :_meta:
     :content_type_id: elementoLista
-    :updated_at: '2020-05-17T06:59:30+00:00'
+    :updated_at: '2020-07-27T12:10:31+00:00'
     :created_at: '2020-05-17T06:59:30+00:00'
     :id: 1vLIdTRWzJqzv7uvcNOGvV
   :immagine:
@@ -237,8 +288,9 @@
       :created_at: '2020-05-17T06:59:19+00:00'
       :id: 49TrGhNltjfdXk77VPBckV
   :titolo: Psicologia Film Festival
-  :testo: Art Director e fotografa della rassegna cinematografica a tematiche psicologiche
-    sociologiche e antropologiche  Psicologia Film Festival (2019-in corso)
+  :testo: Direttrice artistica e fotografa della rassegna cinematografica a tematiche
+    psicologiche sociologiche e antropologiche  Psicologia Film Festival (2019-in
+    corso)
 - :id: Bvz52IkpN92p3k4fWQIOa
   :_meta:
     :content_type_id: elementoLista
@@ -295,3 +347,24 @@
     Equipe della Dottoressa Doriana Dipaola  nell’analisi e nella siglatura del Tematic
     Apperception Test (TAT) di Murray e nel Test di Rorschach con metodologia francese
     (2019 - in corso)
+- :id: 4iXSpybunn39jyRlxRif9
+  :_meta:
+    :content_type_id: elementoLista
+    :updated_at: '2021-01-11T16:50:41+00:00'
+    :created_at: '2021-01-11T16:49:18+00:00'
+    :id: 4iXSpybunn39jyRlxRif9
+  :immagine:
+    :title: Cufrad
+    :description: 'Psicologa e operatrice di comunità all''interno del centro per
+      le dipendenze Cufrad di Sommariva del Bosco, nel servizio di alta protezione
+      rivolto a pazienti con pendenze giudiziarie e difficoltà legate all''abuso di
+      sostanze. '
+    :url: "//images.ctfassets.net/fd82fq972rzy/yQtZcALxDu67OwH1H29Te/32d5da604e0430f9d6ef65ce4affb1e2/Cufrad.jpeg"
+    :_meta:
+      :updated_at: '2021-01-12T08:24:01+00:00'
+      :created_at: '2021-01-11T16:48:10+00:00'
+      :id: yQtZcALxDu67OwH1H29Te
+  :titolo: 'Cufrad '
+  :testo: 'Psicologa e operatrice di comunità presso il centro per le dipendenze Cufrad
+    di Sommariva del Bosco, nel servizio ad alta protezione rivolto a pazienti con
+    pendenze giudiziarie e difficoltà legate all''abuso di sostanze e alcol.  '

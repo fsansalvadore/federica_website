@@ -35,6 +35,11 @@ h2, .chi-sono2 .content-wrap p {
   text-transform: uppercase;
 }
 
+.justify,
+.justify p {
+  text-align: justify;
+}
+
 h2, h3, h4, h5, .chi-sono2 .content-wrap p {
   margin: 0;
   letter-spacing: 0.1px;
@@ -49,6 +54,7 @@ p {
   margin: 0;
   letter-spacing: 0.1px;
   line-height: 1.5;
+  
 }
 
 
@@ -1225,6 +1231,17 @@ span.arrow.rotate {
     /* FOOTER */
     /* FOOTER */
 
+footer {
+  padding: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .fa {
+    margin: 10px;
+  }
+}
+
 #footer {
   padding: 30px;
 }
@@ -1277,9 +1294,60 @@ span.arrow.rotate {
   text-decoration: none;
   color: #217a72;
   font-weight: 700;
-    margin: 20px;
-    display: block;
-    box-sizing: content-box;
+  // margin: 20px;
+  display: block;
+  box-sizing: content-box;
+}
+
+.footer-social {
+  width: 100%;
+  margin-top: 10px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  
+  /* Style all font awesome icons */
+  .fa {
+    padding: 0;
+    font-size: 30px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    color: white !important;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 /*MEDIA QUERIES */
@@ -1446,6 +1514,16 @@ span.arrow.rotate {
 
   .formazione {
     padding: 80px 25%;
+  }
+
+  .page-cover-image {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 300px;
+      max-height: 300px;
+    }
   }
 
   #contatti-formazione {
@@ -1732,7 +1810,7 @@ span.arrow.rotate {
   }
 
   #footer-sotto {
-    max-height: 20px;
+    // max-height: 20px;
   }
 
   #footer-sotto a {

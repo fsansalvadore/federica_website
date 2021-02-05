@@ -2,11 +2,11 @@
 :id: 5vvbeytyL15Az3JVDkQSsn
 :_meta:
   :content_type_id: paginaInterna
-  :updated_at: '2020-04-30T11:21:51+00:00'
+  :updated_at: '2021-02-01T19:34:00+00:00'
   :created_at: '2020-04-30T10:34:03+00:00'
   :id: 5vvbeytyL15Az3JVDkQSsn
-:nome_pagina: Ambiti di intervento - Psicodiagnosi
-:directory: Ambiti di intervento
+:nome_pagina: Di Cosa Mi Occupo - Psicodiagnosi
+:directory: Di Cosa Mi Occupo
 :slug: Psicodiagnosi
 :meta_title: Psicodiagnosi | Federica Burzio | Psicologa e Psicoterapeuta in formazione
 :titolo_principale: PSICODIAGNOSI
@@ -17,23 +17,58 @@
     content:
     - data: {}
       marks: []
-      value: La diagnosi psicologica è l’atto tipico di indagine e valutazione, conoscitivo
+      value: 'La diagnosi psicologica è l’atto tipico di indagine e valutazione, conoscitivo
         e comunicativo, che si avvale di modelli teorici di riferimento psicologici.
         Consiste in una serie di colloqui conoscitivi anamnestici, fondamentali per
-        permettere al clinico di ricollocare il disturbo attuale all’interno della
-        storia personale dell’individuo ripercorrendo le tappe di sviluppo del disagio
-        psichico, a cui viene attribuito un senso e un significato.
+        permettere al clinico di ricollocare il '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: 'disturbo '
+      nodeType: text
+    - data: {}
+      marks: []
+      value: 'attuale all’interno della '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: storia personale
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " dell’individuo ripercorrendo le tappe di sviluppo del disagio psichico,
+        a cui viene attribuito un senso e un significato."
       nodeType: text
     nodeType: paragraph
   - data: {}
     content:
     - data: {}
       marks: []
-      value: Al termine dei colloqui anamnestici si procederà alla somministrazione
-        testistica, ovvero il Test di Rorscach e il TAT (Tematic Apperception Test)
-        nel mio caso. Infine lo psicologo consegnerà al cliente una relazione scritta
-        su quanto emerso ed effettuerà un ultimo colloquio di restituzione all’interno
-        del quale si valuterà assieme la necessità o meno di una presa in carico psicologica.
+      value: 'Al termine dei colloqui anamnestici si procederà alla somministrazione
+        testistica, ovvero il Test di '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: 'Rorschach '
+      nodeType: text
+    - data: {}
+      marks: []
+      value: 'e il '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: 'TAT '
+      nodeType: text
+    - data: {}
+      marks: []
+      value: "(Tematic Apperception Test) nel mio caso. Infine lo psicologo consegnerà
+        al cliente una relazione scritta su quanto emerso ed effettuerà un ultimo
+        colloquio di restituzione all’interno del quale si valuterà assieme la necessità
+        o meno di una presa in carico psicologica."
       nodeType: text
     nodeType: paragraph
   nodeType: document

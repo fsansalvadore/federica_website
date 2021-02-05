@@ -8,11 +8,16 @@
   <div class="box">
     <section class="chi-sono2">
       <div class="content-wrap">
-        <p>DOTT.SSA FEDERICA BURZIO > AMBITI DI INTERVENTO ></p>
+        <p>DOTT.SSA FEDERICA BURZIO > DI COSA MI OCCUPO ></p>
         <h4><%= page.titolo_principale %></h4>
       </div>
     </section>
-    <section class="formazione">
+    <section class="formazione justify">
+      <% unless page.cover_image.nil? %>
+        <div class="page-cover-image">
+          <img src="<%= page.cover_image.url %>" alt="<%= !page.cover_image.title.empty? ? page.cover_image.title : "" %>" >
+        </div>
+      <% end %>
       <div>
         <%= rich_text(page.testo) %>
       </div>

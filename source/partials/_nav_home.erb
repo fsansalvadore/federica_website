@@ -30,11 +30,11 @@
       <a href="#info" data-offset="-160">Richiedi informazioni</a>
     </div>
     <div class="div-link">
-      <a href="#servizi" data-offset="-160">Ambiti di intervento <i class="fa fa-caret-down"></i></a>
+      <a href="#servizi" data-offset="-160">Di Cosa Mi Occupo <i class="fa fa-caret-down"></i></a>
       <div class="dropdown">
         <div class="dropdown-content">
           <% data.site.pages.each do |_, link| %>
-            <% if link.directory == "Ambiti di intervento" %>
+            <% if link.directory == "Di Cosa Mi Occupo" %>
               <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>"><%= link.titolo_principale.capitalize %></a>
             <% end %>
           <% end %>
@@ -79,10 +79,10 @@
           <% end %>
         <% end %>
       </div>
-      <a href="#servizi" data-offset="-90"><li>Ambiti di intervento</li></a>
+      <a href="#servizi" data-offset="-90"><li>Di Cosa Mi Occupo</li></a>
       <div class="sotto-menu">
         <% data.site.pages.each do |_, link| %>
-          <% if link.directory == "Ambiti di intervento" %>
+          <% if link.directory == "Di Cosa Mi Occupo" %>
             <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>" data-offset="-90"><li><%= link.titolo_principale.capitalize %></li></a>
           <% end %>
         <% end %>

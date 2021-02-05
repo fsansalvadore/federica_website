@@ -2,12 +2,12 @@
 :id: 8GjNnnlreTnPAyK05V8oz
 :_meta:
   :content_type_id: paginaInterna
-  :updated_at: '2020-04-30T11:22:30+00:00'
+  :updated_at: '2021-02-01T19:44:34+00:00'
   :created_at: '2020-04-30T10:32:21+00:00'
   :id: 8GjNnnlreTnPAyK05V8oz
-:nome_pagina: Ambiti di intervento - Sostegno Psicologico
-:directory: Ambiti di intervento
-:slug: Sostegno Psicologico
+:nome_pagina: Di Cosa Mi Occupo - Sostegno Psicologico
+:directory: Di Cosa Mi Occupo
+:slug: sostegno-psicologico
 :meta_title: Sostegno Psicologico | Federica Burzio | Psicologa e Psicoterapeuta in
   formazione
 :titolo_principale: SOSTEGNO PSICOLOGICO
@@ -18,20 +18,58 @@
     content:
     - data: {}
       marks: []
-      value: Il sostegno psicologico è un intervento il cui obiettivo è il miglioramento
-        della qualità di vita dell’individuo e degli equilibri adattivi in tutte le
-        situazioni ove si rileva opportuno, sviluppando e potenziando i punti di forza
-        della persona e le sue capacità di autodeterminazione. Il sostegno psicologico
-        realizza interventi diretti e mirati ad ottimizzare ogni tipo di relazione
-        affettiva.
+      value: 'Il sostegno psicologico è un intervento il cui obiettivo è il '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: miglioramento della qualità di vita
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " dell’individuo e degli equilibri adattivi in tutte le situazioni ove
+        si rileva opportuno, sviluppando e potenziando i "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: punti di forza
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " della persona e le sue capacità di autodeterminazione. "
       nodeType: text
     nodeType: paragraph
   - data: {}
     content:
     - data: {}
       marks: []
-      value: Lo psicologo non dà soluzioni ma mette il paziente nelle condizioni di
-        poterle pensare.
+      value: Il sostegno psicologico realizza
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: " interventi diretti e mirati"
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " ad ottimizzare la "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: qualità della vita
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " della persona."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
       nodeType: text
     nodeType: paragraph
   nodeType: document

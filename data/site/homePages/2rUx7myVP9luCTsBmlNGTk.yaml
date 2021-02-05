@@ -2,7 +2,7 @@
 :id: 2rUx7myVP9luCTsBmlNGTk
 :_meta:
   :content_type_id: homePage
-  :updated_at: '2020-05-17T16:19:35+00:00'
+  :updated_at: '2021-01-12T08:29:28+00:00'
   :created_at: '2020-04-28T19:48:54+00:00'
   :id: 2rUx7myVP9luCTsBmlNGTk
 :titolo_contenuto: Contenuti Home Page
@@ -41,9 +41,9 @@
 :sezione1_foto:
   :title: Federica Burzio | Psicologa e Psicoterapeuta in formazione
   :description: 
-  :url: "//images.ctfassets.net/fd82fq972rzy/3hoMcJudyJkdM8O29C6JHG/81929e384b7cec7c1b007e33eef4cb7e/Federica_Burzio-Psicologa_Psicoterapeuta-a2c514cc.jpeg"
+  :url: "//images.ctfassets.net/fd82fq972rzy/3hoMcJudyJkdM8O29C6JHG/2c3cde46a2f7adb367669ead2b839df2/IMG_0591.JPG"
   :_meta:
-    :updated_at: '2020-04-28T19:48:50+00:00'
+    :updated_at: '2020-10-07T21:13:17+00:00'
     :created_at: '2020-04-28T19:48:50+00:00'
     :id: 3hoMcJudyJkdM8O29C6JHG
 :sezione1_etichetta: CHI SONO
@@ -71,38 +71,74 @@
     nodeType: paragraph
   nodeType: document
 :sezione1_testo:
+  nodeType: document
   data: {}
   content:
-  - data: {}
+  - nodeType: paragraph
     content:
-    - data: {}
-      marks: []
+    - nodeType: text
       value: Sono 
-      nodeType: text
-    - data: {}
-      marks:
-      - type: bold
+      marks: []
+      data: {}
+    - nodeType: text
       value: Psicologa
-      nodeType: text
-    - data: {}
-      marks: []
-      value: " laureata all'Università degli studi di Torino, e "
-      nodeType: text
-    - data: {}
       marks:
       - type: bold
-      value: Psicoterapeuta
-      nodeType: text
-    - data: {}
+      data: {}
+    - nodeType: text
+      value: " laureata all'Università degli studi di Torino, e "
       marks: []
-      value: " in formazione. Scopri di più su di me e sul mio percorso:"
-      nodeType: text
-    nodeType: paragraph
-  nodeType: document
+      data: {}
+    - nodeType: text
+      value: Psicoterapeuta
+      marks:
+      - type: bold
+      data: {}
+    - nodeType: text
+      value: " in formazione con orientamento "
+      marks: []
+      data: {}
+    - nodeType: text
+      value: psicoanalitico
+      marks:
+      - type: bold
+      data: {}
+    - nodeType: text
+      value: ". Lavoro come psicologa libera professionista con "
+      marks: []
+      data: {}
+    - nodeType: text
+      value: 'studio '
+      marks:
+      - type: bold
+      data: {}
+    - nodeType: text
+      value: 'a '
+      marks: []
+      data: {}
+    - nodeType: text
+      value: 'Torino '
+      marks:
+      - type: bold
+      data: {}
+    - nodeType: text
+      value: 'e '
+      marks: []
+      data: {}
+    - nodeType: text
+      value: 'Chieri '
+      marks:
+      - type: bold
+      data: {}
+    - nodeType: text
+      value: "(TO). Scopri di più su di me e sul mio percorso:"
+      marks: []
+      data: {}
+    data: {}
 :sezione1_tasto1_testo: Formazione
-:sezione1_tasto2_testo: Pensiero
-:sezione2_etichetta: AMBITI DI INTERVENTO
-:sezione2_titolo: Di cosa mi occupo?
+:sezione1_tasto2_testo: 'Cosa fa lo Psicologo '
+:sezione2_etichetta: 'Psicologia Clinica '
+:sezione2_titolo: Di chi mi occupo?
 :sezione2_testo:
   data: {}
   content:
@@ -110,7 +146,38 @@
     content:
     - data: {}
       marks: []
-      value: Esistono diverse branche della psicologia che si occupano del 
+      value: 'L''essere umano è portato per molte cose, ma sicuramente non per la
+        solitudine. Lo Psicologo è un professionista che stabilisce una '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: relazione di aiuto
+      nodeType: text
+    - data: {}
+      marks: []
+      value: " con il suo cliente in modo da aiutarlo ad affrontare fasi complicate
+        della vita, momenti di ansia, depressione, lutto e disagio psichico generale
+        di vario tipo. Attraverso interventi diversi lo Psicologo può aiutare il paziente
+        a superare "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: 'crisi '
+      nodeType: text
+    - data: {}
+      marks: []
+      value: 'e '
+      nodeType: text
+    - data: {}
+      marks:
+      - type: bold
+      value: difficoltà
+      nodeType: text
+    - data: {}
+      marks: []
+      value: ".  Tra gli interventi psicologici che si occupano del "
       nodeType: text
     - data: {}
       marks:
@@ -119,7 +186,7 @@
       nodeType: text
     - data: {}
       marks: []
-      value: ", quelle su cui mi concentro attualmente sono:"
+      value: ", esistono:"
       nodeType: text
     nodeType: paragraph
   - data: {}
@@ -130,8 +197,8 @@
       nodeType: text
     nodeType: paragraph
   nodeType: document
-:sezione2_link1: il sostegno psicologico
-:sezione2_link2: la consulenza
+:sezione2_link1: il sostegno e supporto psicologico
+:sezione2_link2: 'la consulenza psicologica '
 :sezione2_link3: la psicodiagnosi
 :sezione3_icona1_immagine:
   :title: adolesc
@@ -246,7 +313,7 @@
       marks: []
       value: 'Orario di reperibilità
 
-        '
+'
       nodeType: text
     - data: {}
       marks:
@@ -269,11 +336,11 @@
     - data: {}
       marks:
       - type: bold
-      value: '18:00'
+      value: '19:00'
       nodeType: text
     nodeType: paragraph
   nodeType: document
 :contatti_email: info@federicaburziopsicologa.it
 :contatti_telefono: "+39 338 482 7741"
-:contatti_indirizzo1: Via Don Giovanni Minzoni 2, 10121 Torino
+:contatti_indirizzo1: Via Filippo Juvarra 1, 10122 Torino
 :contatti_indirizzo2: Viale Fasano, 17 Chieri (TO)

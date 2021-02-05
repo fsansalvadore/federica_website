@@ -2,7 +2,7 @@
 :id: 5tBEDpEUEgxXLdZ2itc074
 :_meta:
   :content_type_id: informazioniGenerali
-  :updated_at: '2020-04-30T09:55:40+00:00'
+  :updated_at: '2020-10-07T08:55:55+00:00'
   :created_at: '2020-04-30T09:50:38+00:00'
   :id: 5tBEDpEUEgxXLdZ2itc074
 :informazioni_generali: Info Generali
@@ -15,41 +15,41 @@
     :created_at: '2020-04-30T09:54:13+00:00'
     :id: TEs9PWqZKPpSX6DLxNvm7
 :informazioni_orario:
+  nodeType: document
   data: {}
   content:
-  - data: {}
+  - nodeType: paragraph
     content:
-    - data: {}
-      marks: []
+    - nodeType: text
       value: Orario di reperibilità 
-      nodeType: text
-    - data: {}
-      marks:
-      - type: bold
+      marks: []
+      data: {}
+    - nodeType: text
       value: Lun - Ven
-      nodeType: text
-    - data: {}
-      marks: []
+      marks:
+      - type: bold
+      data: {}
+    - nodeType: text
       value: " dalle "
-      nodeType: text
-    - data: {}
-      marks:
-      - type: bold
-      value: '9:00'
-      nodeType: text
-    - data: {}
       marks: []
-      value: " alle "
-      nodeType: text
-    - data: {}
+      data: {}
+    - nodeType: text
+      value: '9:00'
       marks:
       - type: bold
-      value: '18:00'
-      nodeType: text
-    nodeType: paragraph
-  nodeType: document
-:informazioni_indirizzi: Via Don Giovanni Minzoni 2, 10121 Torino - Viale Fasano,
-  17 Chieri (TO)
+      data: {}
+    - nodeType: text
+      value: " alle "
+      marks: []
+      data: {}
+    - nodeType: text
+      value: '19:30'
+      marks:
+      - type: bold
+      data: {}
+    data: {}
+:informazioni_indirizzi: Via Filippo Juvarra 1, 10122 Torino - Viale Fasano, 17 Chieri
+  (TO)
 :informazioni_email: info@federicaburziopsicologa.it
 :informazioni_telefono: "+39 338 482 7741"
 :footer_info_generiche: Federica Burzio © 2020 Tutti i diritti riservati

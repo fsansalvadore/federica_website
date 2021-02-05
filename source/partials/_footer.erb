@@ -1,10 +1,17 @@
 <% data.site.generals.each do |_, general| %>
 
 <footer id="footer-sotto">
-  <p><%= general.footer_info_generiche %></p>
-  <p><%= general.footer_partita_iva %></p>
-  <a href="./privacy.html">Informativa sulla Privacy</a>
-  <a href="https://www.fsansalvadore.com/" target="_blank">Credits</a>
+  <div>
+    <p><%= general.footer_info_generiche %></p>
+    <p><%= general.footer_partita_iva %></p>
+    <a href="/privacy.html">Informativa sulla Privacy</a>
+    <a href="https://www.fsansalvadore.com/" target="_blank">Credits</a>
+  </div>
+  <div class="footer-social">
+    <a href="https://www.linkedin.com/in/federica-burzio-aa4130161/" target="_blank" class="fa fa-linkedin"></a>
+    <!-- <a href="#" target="_blank" class="fa fa-facebook"></a>
+    <a href="#" target="_blank" class="fa fa-instagram"></a> -->
+  </div>
 </footer>
 
 <% end %>

@@ -209,6 +209,7 @@ DEPENDENCIES
   middleman-s3_sync
   middleman-sprockets (~> 4.0.0.rc)
   rack (>= 2.2.3)
+  rich_text_renderer (~> 0.2.1)
   sprockets-es6
   tzinfo-data
   wdm (~> 0.1)
