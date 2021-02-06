@@ -8,9 +8,15 @@
     <a href="https://www.fsansalvadore.com/" target="_blank">Credits</a>
   </div>
   <div class="footer-social">
-    <a href="https://www.linkedin.com/in/federica-burzio-aa4130161/" target="_blank" class="fa fa-linkedin"></a>
-    <!-- <a href="#" target="_blank" class="fa fa-facebook"></a>
-    <a href="#" target="_blank" class="fa fa-instagram"></a> -->
+    <% if general.linked_in %>
+      <a href="<%= general.linked_in %>" target="_blank" class="fa fa-linkedin"></a>
+    <% end %>
+    <% if general.facebook %>
+      <a href="<%= general.facebook %>" target="_blank" class="fa fa-facebook"></a>
+    <% end %>
+    <% if general.instagram %>
+      <a href="<%= general.instagram %>" target="_blank" class="fa fa-instagram"></a>
+    <% end %>
   </div>
 </footer>
 
