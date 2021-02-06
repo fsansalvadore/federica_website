@@ -32,7 +32,7 @@ page 'index.html', layout: 'home'
 # activate :directory_indexes
 
 data.site.pages.each do |_, page|
-  proxy "/#{page.directory.downcase.gsub(' ', '-')}/#{page.slug.downcase}/index.html", "/page-template.html", :locals => { :page => page }, :ignore => true
+  proxy "/#{page.directory && !page.directory.empty? ? page.directory.downcase.gsub(' ', '-') + "/" : ""}#{page.slug.downcase}/index.html", "/page-template.html", :locals => { :page => page }, :ignore => true
 end
 
 # proxy(

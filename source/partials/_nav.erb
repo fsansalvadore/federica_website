@@ -30,11 +30,14 @@
       <a href="<%= config[:host] %>/#info" data-offset="-160">Richiedi informazioni</a>
     </div>
     <div class="div-link">
+      <a href="<%= config[:host] %>/studio" data-offset="-160">Lo Studio</a>
+    </div>
+    <div class="div-link">
       <a href="<%= config[:host] %>/#servizi" data-offset="-160">Di Cosa Mi Occupo <i class="fa fa-caret-down"></i></a>
       <div class="dropdown">
         <div class="dropdown-content">
           <% data.site.pages.each do |_, link| %>
-            <% if link.directory.to_str === "Di Cosa Mi Occupo" %>
+            <% if link.directory && link.directory.to_str === "Di Cosa Mi Occupo" %>
               <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>"><%= link.titolo_principale.capitalize %></a>
             <% end %>
           <% end %>
@@ -48,7 +51,7 @@
       <div class="dropdown">
         <div class="dropdown-content">
           <% data.site.pages.each do |_, link| %>
-            <% if link.directory == "Chi sono" %>
+            <% if link.directory && link.directory == "Chi sono" %>
               <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>"><%= link.titolo_principale.capitalize %></a>
             <% end %>
           <% end %>
@@ -85,6 +88,7 @@
           <% end %>
         <% end %>
       </div>
+      <a href="<%= config[:host] %>/studio" data-offset="-90"><li>Lo Studio</li></a>
       <a href="<%= config[:host] %>/#info" data-offset="-90"><li>Richiedi informazioni</li></a>
       <a href="<%= config[:host] %>/#contatti" data-offset="-90"><li>Contatti</li></a>
     </div>
