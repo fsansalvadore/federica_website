@@ -6,10 +6,8 @@ activate :autoprefixer do |prefix|
 end
 
 activate :contentful do |f|
-  # f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
-  f.space         = { site: "fd82fq972rzy" }
-  # f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
-  f.access_token  = "pgDc_Asmowg0qPIFq0shIQMrk-aDjJ_lHyZFwcayYno"
+  f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
+  f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
   f.content_types = {
     homePages: 'homePage',
     generals: 'informazioniGenerali',
