@@ -2,7 +2,7 @@
 :id: 5tBEDpEUEgxXLdZ2itc074
 :_meta:
   :content_type_id: informazioniGenerali
-  :updated_at: '2021-02-06T20:38:53+00:00'
+  :updated_at: '2021-02-07T10:54:18+00:00'
   :created_at: '2020-04-30T09:50:38+00:00'
   :id: 5tBEDpEUEgxXLdZ2itc074
 :informazioni_generali: Info Generali
@@ -52,6 +52,30 @@
   (TO)
 :informazioni_email: info@federicaburziopsicologa.it
 :informazioni_telefono: "+39 338 482 7741"
+:navigazione:
+  :voci:
+  - :slug: chi-sono
+    :etichetta: Chi Sono
+    :dropdown:
+    - :slug: cosa-fa-lo-psicologo
+      :etichetta: Cosa fa lo psicologo
+    - :slug: formazione
+      :etichetta: Formazione
+  - :slug: di-cosa-mi-occupo
+    :etichetta: Di Cosa Mi Occupo
+    :dropdown:
+    - :slug: consulenza-psicologica
+      :etichetta: Consulenza Psicologica (o Counseling)
+    - :slug: sostegno-psicologico
+      :etichetta: Sostegno Psicologico
+    - :slug: psicodiagnosi
+      :etichetta: Psicodiagnosi
+  - :slug: lo-studio
+    :etichetta: Lo Studio
+  - :slug: "#info"
+    :etichetta: Richiedi Informazioni
+  - :slug: "#contatti"
+    :etichetta: Contatti
 :footer_info_generiche: Federica Burzio © 2020 Tutti i diritti riservati
 :footer_partita_iva: P.IVA 12244320011
 :linked_in: https://www.linkedin.com/in/federica-burzio-aa4130161/

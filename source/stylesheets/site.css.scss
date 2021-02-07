@@ -300,6 +300,7 @@ a {
     display: block;
     left: 0px;
     background: #005951;
+    color: white;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -372,6 +373,10 @@ a {
   -webkit-transition: 2s;
   -o-transition: 2s;
   transition: 2s;
+}
+
+#menu a, #menu:hover {
+  color: white;
 }
 
     /* FINE MENU HAMBURGER */
@@ -1513,7 +1518,7 @@ footer {
   }
 
   .formazione {
-    padding: 80px 25%;
+    padding: 60px 25% 80px 25%;
   }
 
   .page-cover-image {
@@ -1545,7 +1550,8 @@ footer {
     -ms-grid-column-span: 3;
     grid-column: span 3;
     text-align: right;
-    display: block;
+    display: flex;
+    align-items: center;
   }
 
     #link-header a:hover{

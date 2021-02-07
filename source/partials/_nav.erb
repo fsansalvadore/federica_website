@@ -23,41 +23,24 @@
 <div id="header">
   <a href="<%= config[:host] %>/" alt="Federica Burzio - Psicologa Psicoterapeuta Torino"><img class="logo" src="<%= general.logo_principale.url %>" alt="logo-Federica-Burzio"><div class="avatar-foto"></div></a>
   <div id="link-header">
-    <div class="div-link">
-      <a href="<%= config[:host] %>/#contatti" data-offset="-160">Contatti</a>
-    </div>
-    <div class="div-link">
-      <a href="<%= config[:host] %>/#info" data-offset="-160">Richiedi informazioni</a>
-    </div>
-    <div class="div-link">
-      <a href="<%= config[:host] %>/lo-studio" data-offset="-160">Lo Studio</a>
-    </div>
-    <div class="div-link">
-      <a href="<%= config[:host] %>/#servizi" data-offset="-160">Di Cosa Mi Occupo <i class="fa fa-caret-down"></i></a>
-      <div class="dropdown">
-        <div class="dropdown-content">
-          <% data.site.pages.each do |_, link| %>
-            <% if link.directory && link.directory.to_str === "Di Cosa Mi Occupo" %>
-              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>"><%= link.titolo_principale.capitalize %></a>
-            <% end %>
-          <% end %>
-            <!-- <a href="/ambiti-di-intervento/consulenza.html">Consulenza</a>
-            <a href="/ambiti-di-intervento/psicodiagnosi.html">Psicodiagnosi</a> -->
+    <% general.navigazione.voci && general.navigazione.voci.each do |voce| %>
+      <% if voce.dropdown %>
+        <div class="div-link">
+          <a href="" data-offset="-160"><%= voce.etichetta %> <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown">
+            <div class="dropdown-content">
+              <% voce.dropdown.each do |item| %>
+                <a href="/<%= voce.slug.downcase %>/<%= item.slug.downcase %>"><%= item.etichetta %></a>
+              <% end %>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="div-link">
-      <a href="<%= config[:host] %>/#chi-sono" data-offset="-160">Chi sono <i class="fa fa-caret-down"></i></a>
-      <div class="dropdown">
-        <div class="dropdown-content">
-          <% data.site.pages.each do |_, link| %>
-            <% if link.directory && link.directory == "Chi sono" %>
-              <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>"><%= link.titolo_principale.capitalize %></a>
-            <% end %>
-          <% end %>
+      <% else %>
+        <div class="div-link">
+          <a href="<%= config[:host] %>/<%= voce.slug.downcase %>"><%= voce.etichetta %></a>
         </div>
-      </div>
-    </div>
+      <% end %>
+    <% end %>
   </div>
 
   <nav role='navigation' id="burger-icon">
@@ -72,25 +55,18 @@
   </div>
   <ul id="menu" class="closed-menu">
     <div class="menu-list">
-      <a href="<%= config[:host] %>/#chi-sono" data-offset="-90"><li>Chi sono</li></a>
-      <div class="sotto-menu">
-        <% data.site.pages.each do |_, link| %>
-          <% if link.directory == "Chi sono" %>
-            <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>" data-offset="-90"><li><%= link.titolo_principale.capitalize %></li></a>
-          <% end %>
+      <% general.navigazione.voci && general.navigazione.voci.each do |voce| %>
+        <% if voce.dropdown %>
+          <div><li><%= voce.etichetta %> <i class="fa fa-caret-down"></i></li></div>
+          <div class="sotto-menu">
+              <% voce.dropdown.each do |item| %>
+                <a href="/<%= voce.slug.downcase %>/<%= item.slug.downcase %>"><li><%= item.etichetta %></li></a>
+              <% end %>
+          </div>
+        <% else %>
+            <a href="<%= voce.slug %>" data-offset="-90"><li><%= voce.etichetta %></li></a>
         <% end %>
-      </div>
-      <a href="<%= config[:host] %>/#servizi" data-offset="-90"><li>Di Cosa Mi Occupo</li></a>
-      <div class="sotto-menu">
-        <% data.site.pages.each do |_, link| %>
-          <% if link.directory == "Di Cosa Mi Occupo" %>
-            <a href="/<%= link.directory.downcase.gsub(' ', '-') %>/<%= link.slug.downcase.gsub(' ', '-') %>" data-offset="-90"><li><%= link.titolo_principale.capitalize %></li></a>
-          <% end %>
-        <% end %>
-      </div>
-      <a href="<%= config[:host] %>/lo-studio" data-offset="-90"><li>Lo Studio</li></a>
-      <a href="<%= config[:host] %>/#info" data-offset="-90"><li>Richiedi informazioni</li></a>
-      <a href="<%= config[:host] %>/#contatti" data-offset="-90"><li>Contatti</li></a>
+      <% end %>
     </div>
   </ul>
 <% end %>
