@@ -60,11 +60,11 @@
           <div><li><%= voce.etichetta %> <i class="fa fa-caret-down"></i></li></div>
           <div class="sotto-menu">
               <% voce.dropdown.each do |item| %>
-                <a href="/<%= voce.slug.downcase %>/<%= item.slug.downcase %>"><li><%= item.etichetta %></li></a>
+                <a href="<%= config[:host] %>/<%= voce.slug.downcase %>/<%= item.slug.downcase %>"><li><%= item.etichetta %></li></a>
               <% end %>
           </div>
         <% else %>
-            <a href="<%= voce.slug %>" data-offset="-90"><li><%= voce.etichetta %></li></a>
+            <a href="<%= config[:host] %>/<%= voce.slug %>" data-offset="-90"><li><%= voce.etichetta %></li></a>
         <% end %>
       <% end %>
     </div>
