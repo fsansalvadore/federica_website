@@ -21,12 +21,12 @@
   </div>
 </div>
 <div id="header">
-  <a href="<%= config[:host] %>/" alt="Federica Burzio - Psicologa Psicoterapeuta Torino"><img class="logo" src="<%= general.logo_principale.url %>" alt="logo-Federica-Burzio"><div class="avatar-foto"></div></a>
+  <a href="/" alt="Federica Burzio - Psicologa Psicoterapeuta Torino"><img class="logo" src="<%= general.logo_principale.url %>" alt="logo-Federica-Burzio"><div class="avatar-foto"></div></a>
   <div id="link-header">
     <% general.navigazione.voci && general.navigazione.voci.each do |voce| %>
       <% if voce.dropdown %>
         <div class="div-link">
-          <a href="" data-offset="-160"><%= voce.etichetta %> <i class="fa fa-caret-down"></i></a>
+          <span data-offset="-160" class="menu-item"><%= voce.etichetta %> <i class="fa fa-caret-down"></i></span>
           <div class="dropdown">
             <div class="dropdown-content">
               <% voce.dropdown.each do |item| %>
@@ -37,7 +37,7 @@
         </div>
       <% else %>
         <div class="div-link">
-          <a href="<%= config[:host] %>/<%= voce.slug.downcase %>"><%= voce.etichetta %></a>
+          <a href="/<%= voce.slug.downcase %>"><%= voce.etichetta %></a>
         </div>
       <% end %>
     <% end %>
@@ -60,11 +60,11 @@
           <div><li><%= voce.etichetta %> <i class="fa fa-caret-down"></i></li></div>
           <div class="sotto-menu">
               <% voce.dropdown.each do |item| %>
-                <a href="<%= config[:host] %>/<%= voce.slug.downcase %>/<%= item.slug.downcase %>"><li><%= item.etichetta %></li></a>
+                <a href="/<%= voce.slug.downcase %>/<%= item.slug.downcase %>"><li><%= item.etichetta %></li></a>
               <% end %>
           </div>
         <% else %>
-            <a href="<%= config[:host] %>/<%= voce.slug %>" data-offset="-90"><li><%= voce.etichetta %></li></a>
+            <a href="/<%= voce.slug %>" data-offset="-90"><li><%= voce.etichetta %></li></a>
         <% end %>
       <% end %>
     </div>

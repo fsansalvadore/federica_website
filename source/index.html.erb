@@ -169,13 +169,18 @@
 							<img src="/images/icone/call-answer.svg" alt="icon-phone"><p><a href="tel:<%= page.contatti_telefono.gsub(' ', '') %>"><%= page.contatti_telefono %></a></p>
 						</li>
 					</ul>
-            <div id="map-btn"><button class="map-btn-single active" id="torino"><img src="/images/icone/maps-and-flags.svg" alt="icon-position"><%= page.contatti_indirizzo1 %></button><button class="map-btn-single" id="chieri"><img src="/images/icone/maps-and-flags.svg" alt="icon-position"><%= page.contatti_indirizzo2 %></button></div>
+            <div id="map-btn">
+							<button class="map-btn-single active" id="torino">
+								<img src="/images/icone/maps-and-flags.svg" alt="icon-position">
+								<%= page.contatti_indirizzo1 %>
+							</button>
+						</div>
 				</div>
 
 			<!-- GOOGLE MAPS -->
 				<div class="div-destra">
 					<div id="map">
-            			<iframe src="https://www.google.com/maps/embed/v1/place?q=Via%20Filippo%20Juvarra%2C%201%2010122%20Torino%20TO&key=AIzaSyAvMMUbUBXr4WEtSIYgrUZq3HMWEmzEKTw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=Via%20Filippo%20Juvarra%2C%201%2010122%20Torino%20TO&key=AIzaSyAvMMUbUBXr4WEtSIYgrUZq3HMWEmzEKTw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>

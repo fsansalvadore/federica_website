@@ -1563,11 +1563,16 @@ footer {
     padding: 45px 25px;
   }
 
-  .div-link a {
+  .div-link a,
+  .div-link .menu-item {
     color: #888;
   }
-    .div-link a:hover {
+    .div-link a:hover,
+    .div-link .menu-item:hover {
     color: #111;
+  }
+    .div-link .menu-item:hover {
+    cursor: default;
   }
     .set div:nth-child(1) {
         top: 80%;
